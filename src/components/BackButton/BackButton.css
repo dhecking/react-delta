@@ -1,0 +1,55 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.fa-2x {
+  font-size: 1.75em; }
+
+.back {
+  position: fixed;
+  top: 35px;
+  left: 35px;
+  width: 95px;
+  height: 95px;
+  transition: opacity 1.5s;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #666; }
+  .back .contents {
+    background-color: #eee;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    justify-content: center; }
+  .ada .back .contents {
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff; }
+  .hw-7000 .back, .hw-3100 .back {
+    width: 65px;
+    height: 65px;
+    top: 25px;
+    left: 25px; }
+  .hw-MLobby .back {
+    top: auto;
+    bottom: 60px;
+    left: 60px;
+    width: 110px;
+    height: 110px;
+    margin-top: -55px; }
+    .hw-MLobby .back .contents svg {
+      font-size: 2.25em; }

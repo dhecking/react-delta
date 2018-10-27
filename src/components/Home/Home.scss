@@ -1,0 +1,378 @@
+
+@import "./../styles/variables.scss";
+
+
+.home {
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	z-index: 6;
+	transition: opacity .5s;
+
+	width: $width_9100;
+	height: $height_9100;
+
+	.hw-MLobby & {
+		width: $width_MLobby;
+		height: $height_MLobby;
+	}
+
+	.hw-7000 &, .hw-3100 & {
+		width: $width_7000;
+		height: $height_7000;
+	}
+
+	.item.image {
+		position: fixed;
+	}
+
+	.non-ada & {
+		.layout_cluster {
+
+		}
+		.bottom-row {
+			.water {
+				display: none;
+			}
+		}
+	}
+
+	.hw-7000.ada &, .hw-3100.ada & {
+		.layout_cluster {
+			padding: 5%;
+			.item.image {
+				width: $level2_7000;
+				height: $level2_7000;
+			}
+		}
+	}
+
+	.ada & {
+		.layout_cluster {
+			padding: 4% 10%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			flex-flow: left;
+			// align-items: left;
+			justify-content: center;
+			transition: all 0.4s ease-in-out;
+			a {
+				margin: $gutter/4 $gutter/2;
+				z-index: 8;
+			}
+			.item.image {
+				transform: translate(0,0) scale(1,1) !important;
+				position: relative;
+				width: $level1_9100;
+				height: $level1_9100;
+				opacity: 1;
+				display: flex;
+				flex: shrink;
+				z-index: 8;
+			}
+			> .water {
+				display: none;
+			}
+		}
+		
+		.specialty-brands, .promotional-brands, .water-brand {
+			display: flex;
+			flex: none;
+			.brand-loop {
+				bottom: 0;
+				top: 0;
+			}
+		}
+		.specialty-brands {
+			.ada-logo {
+				background-color: #893866;
+			}
+		}
+		.promotional-brands {
+			.ada-logo {
+				background-color: #E42027;
+			}
+		}
+		.bottom-row {
+			display: flex;
+			flex: 0 0 100%;
+			flex-direction: row;
+			flex-wrap: wrap;
+			flex-flow: center;
+			align-items: center;
+			justify-content: center;
+			order: 800;
+			.water {
+				visibility: visible;
+				// margin: 0;
+			}
+		}
+	}
+
+	// Animations:
+	.route-trans-exit &, .route-trans-enter & {
+		opacity: 0;
+	}
+	.route-trans-enter-done & {
+		opacity: 1;
+	}
+
+
+
+	.specialty-brands {
+		.brand-loop {
+			top: ( $height_9100 - $gutter - $level2_9100 );
+
+			.hw-7000 &, .hw-3100 & {
+				top: ( $height_7000 - $gutter - $level1_7000 );
+			}
+		}
+		.item.image {
+			.route-trans-enter-done & {
+				transform: translate( -435px, 0 ) scale( 1, 1 );
+
+				.hw-7000 &, .hw-3100 & {
+					transform: translate( -420px, 0 ) scale( 1, 1 );
+				}
+			}
+		}
+	}
+
+
+	.promotional-brands {
+		.brand-loop {
+			top: $gutter;
+		}
+		.item.image {
+			.route-trans-enter-done & {
+				transform: translate( -435px, 0 ) scale(1.0, 1.0);
+			}
+		}
+	}
+
+	.layout_circle {
+		flex-grow: 1;
+		position: relative;
+		min-height: $MLobby_bottom;
+
+		@keyframes fadein {
+			from { opacity: 0; }
+			to 	 { opacity: 1; }
+		}
+
+		@mixin centered {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+		}
+
+		.cap-wrap {
+			@include centered;
+			cursor: pointer;
+			z-index: 1;
+			box-shadow: 0 1px 9px rgba(0, 0, 0, .5);
+			border-radius: 100%;
+			width: 200px;
+			height: 200px;
+			opacity: 0;
+
+			.item.image {
+				opacity: 1;
+				height: auto;
+				width: auto;
+			}
+		}
+
+		.cap-wrap.done {
+			animation: pop .5s;
+			animation-delay: .5s;
+		}
+
+		.cap-wrap > a img {
+			width: 100%;
+			height: 100%;
+			max-width: 100%;
+			max-height: 100%;
+			position: relative;
+		}
+
+		.cap-wrap > a img.defaut {
+			background-color: grey;
+			min-width: 100%;
+			min-height: 100%;
+			border-radius: 100%;
+		}
+
+		.cap-wrap > a img.default:before {
+			content: attr(data-name);
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			font-size: 1.3em;
+			text-transform: lowercase;
+			color: white;
+		}
+
+		.l0 > .cap-wrap {
+			// top: 0;
+			// left: 0;
+			transition: all .5s;
+		}
+
+		.l1 > .cap-wrap,
+		.l2 > .cap-wrap,
+		.l3 > .cap-wrap {
+			transform: none;
+			transition: all .5s;
+			margin-top: -100px;
+			margin-left: -100px;
+		}
+
+		.l0 {
+			z-index: 2;
+			width: 200px;
+			height: 200px;
+			margin-top: -100px;
+			margin-left: -100px;
+			@include centered;
+		}
+
+		.l1 {
+			width: 500px;
+			height: 500px;
+			margin-top: -250px;
+			margin-left: -250px;
+			@include centered;
+		}
+
+		.l2 {
+			width: 800px;
+			height: 800px;
+			margin-top: -400px;
+			margin-left: -400px;
+			@include centered;
+		}
+
+		.l3 {
+			width: 1000px;
+			height: 1000px;
+			margin-top: -500px;
+			margin-left: -500px;
+			@include centered;
+		}
+	}
+
+	.toTTP {
+		position: fixed;
+		.hw-7000 &, .hw-3100 & {
+			left: 173px;
+			top: 500px;
+			width: 100px;
+			height: 80px;
+		}
+		.hw-9100 &{
+			left: 290px;
+			top: 900px;
+			width: 220px;
+			height: 130px;
+		}
+		.hw-MLobby &{
+			left: 210px;
+			bottom: 0;
+			width: 117px;
+			height: 160px;
+		}
+	}
+}
+
+img.cii {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 100;
+}
+
+.hw-MLobby {
+	.home {
+		display: flex;
+		flex-direction: column;
+
+		.attract {
+			width: 100%;
+			height: 608px;
+			transition: all .5s;
+
+			image,
+			video	{
+				width: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+			}
+		}
+
+		.bottom-row {
+			.item.image {
+				height: 145px;
+				width: 145px;
+			}
+		}
+		.specialty-brands {
+			.brand-loop {
+				top: auto;
+				bottom: 30px;
+			}
+		}
+
+		.promotional-brands {
+			.brand-loop {
+				top: 760px;
+			}
+		}
+	}
+
+	.route-trans-enter-done {
+		.home {
+			.specialty-brands,
+			.promotional-brands {
+				.item.image {
+					transform: translate( -415px, 0 ) scale( 1, 1 );
+				}
+			}
+		}
+	}
+
+	&.ada.app {
+		.attract,
+		.filters { display: none; }
+
+		.layout_cluster {
+			align-content: flex-end;
+    	justify-content: flex-start;
+			width: $width_MLobby;
+			height: $height_MLobby;
+			padding: 70px 150px;
+
+			a {
+				margin: 16px 31px;
+				width: 132px;
+				height: 132px;
+
+				.item.image {
+					width: 132px;
+					height: 132px;
+				}
+			}
+
+			.bottom-row { margin-top: 5px; }
+		}
+
+	}
+}
+

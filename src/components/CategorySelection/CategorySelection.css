@@ -1,0 +1,86 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.category-selection {
+  position: fixed;
+  z-index: 6;
+  top: 0;
+  left: 0;
+  transition: all .5s;
+  font-family: 'Unity';
+  width: 1920px;
+  height: 1080px; }
+  .hw-7000 .category-selection, .hw-3100 .category-selection {
+    width: 1024px;
+    height: 600px; }
+  .hw-MLobby .category-selection {
+    width: 1080px;
+    height: 1920px; }
+  .route-trans-exit .category-selection, .route-trans-enter .category-selection {
+    opacity: 0; }
+    .route-trans-exit .category-selection .heading, .route-trans-enter .category-selection .heading {
+      height: 0px; }
+  .category-selection .back {
+    transform: translateX(-300px);
+    transition: all 0.5s; }
+    .route-trans-enter-done .category-selection .back {
+      transition: all 0.5s .5s;
+      transform: translateX(0px); }
+      .ada .route-trans-enter-done .category-selection .back {
+        transition: all 0.3s; }
+  .ada .category-selection .heading {
+    color: #fff;
+    transition: all .5s; }
+  .category-selection .heading {
+    font-size: 60pt;
+    max-width: 600px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #F40000;
+    overflow: hidden;
+    height: 250px;
+    transition: all .5s .5s; }
+    .category-selection .heading strong {
+      font-weight: 600;
+      font-size: 83pt; }
+  .category-selection > .contents {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1080px;
+    padding: 5% 20%; }
+    .category-selection > .contents .item.image {
+      position: relative;
+      transform: translate(0, 0) scale(1, 1);
+      width: 230px;
+      height: 230px;
+      opacity: 1;
+      margin: 17.5px; }
+    .hw-MLobby .category-selection > .contents {
+      height: 1920px; }
+      .hw-MLobby .category-selection > .contents .item.image {
+        width: 210px;
+        height: 210px; }
+  .category-selection .selections {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: center;
+    align-items: center;
+    justify-content: center; }

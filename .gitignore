@@ -1,0 +1,11 @@
+# do not commit build artifacts 
+# do not commit binaries
+package-lock.json
+**/node
+**/node_modules
+**/build
+**/dist
+**/*.png
+**/*.mp4
+**/*.jpg
+**/*.pkg

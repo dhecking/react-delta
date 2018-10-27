@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ADA Controls</title>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+		<script>
+
+			let url = `ws://${window.location.host}/events`
+			console.log('Connecting to:', url)
+			// websocket = new WebSocket('ws://10.92.165.230:8080/events')
+			websocket = new WebSocket( url )
+			websocket.onopen = handleOpen
+			websocket.onmessage = handleMessage
+			websocket.onclose = handleClose
+
+			function handleOpen(){
+				console.log('Socket opened')
+			}
+
+			function handleMessage(){
+				console.log('received message')
+			}
+
+			function handleClose(){
+				console.log('socket disconnected')
+			}
+
+			function send( type ){
+				console.log('Sending:', type)
+				websocket.send(`topic:/dispenser/ada
+
+{"type":"${type}"}`)
+			}
+
+		let iceData = {
+					topic: '/dispenser/state/d.enclosure:core9100.bean:iceAgitator',
+					data: {
+						msgType: 'status',
+						data:{
+							paused:false,
+							state:{
+								agitating:false,
+								iceChuteOpen:false,
+								iceLeverPressed:true
+							}
+						},
+						path: "d.enclosure:core9100.bean:iceAgitator"
+					}
+				}
+
+			function startIce( ){
+				console.log('Sending: Start Ice')
+				let data = iceData
+				data.data.data.state.iceLeverPressed = true
+				const message = `topic:${data.topic}
+
+${JSON.stringify(data.data)}`
+console.log(data.data.data.state.iceLeverPressed)
+				websocket.send( message )
+			}
+
+			function stopIce( ){
+				console.log('Sending: Stop Ice')
+				let data = iceData
+				console.log(data.data.data.state.iceLeverPressed)
+				data.data.data.state.iceLeverPressed = false
+
+				const message = `topic:${data.topic}
+
+${JSON.stringify(data.data)}`
+				websocket.send( message )
+			}
+
+
+			window.triggerTrouble = ( status ) => {
+				console.log('trigger Trouble...')
+				let data = {
+					topic: '/dispenser/trouble',
+					data: {
+						payload: status,
+						msgType: 'trouble'
+					}
+				}
+				const message = `topic:${data.topic}
+
+${JSON.stringify(data.data)}`
+				websocket.send( message )
+			}
+
+			let isTouching = false
+			window.onkeydown = function( evt ){
+				console.log('key down:', evt.keyCode)
+				// SHIFT + A : Toggle ADA
+				if( evt.shiftKey && evt.keyCode === 65 ){
+					send('handicap')
+				}
+				if( evt.keyCode == 37 ) send('left')
+				if( evt.keyCode == 39 ) send('right')
+				if( evt.keyCode == 32 && !isTouching ){
+					isTouching = true
+					send('touch')
+				}
+			}
+			window.onkeyup = function( evt ){
+				console.log('key up:', evt.keyCode)
+				if( evt.keyCode == 32 && isTouching ){
+					isTouching = false
+					send('release')
+				}
+			}
+
+			function startPour( ){
+				console.log('Sending: Start Pour')
+				let data = {
+					topic: '/dispenser/select-and-pour',
+					data: { type: 'start', msgType: 'selectAndPour'}
+				}
+				console.log(data)
+				const message = `topic:${data.topic}
+
+${JSON.stringify(data.data)}`
+				websocket.send( message )
+			}
+
+			function stopPour( ){
+				console.log('Sending: Stop Pour')
+				let data = {
+					topic: '/dispenser/select-and-pour',
+					data: { type: 'stop', msgType: 'selectAndPour'}
+				}
+				const message = `topic:${data.topic}
+
+${JSON.stringify(data.data)}`
+console.log(message)
+				websocket.send( message )
+			}
+
+		</script>
+		<style>
+			section {
+				text-align: center;
+				color: #333;
+				margin: 50px auto;
+				font-family: sans-serif;
+				min-width: 700px;
+			}
+
+			.container_dual .container {
+				float: left;
+				width: 50%;
+			}
+
+			h1 {
+				font-size: 36px;
+				margin: 0;
+			}
+
+			.controls {
+				position: relative;
+				width: 360px;
+				height: 240px;
+				margin: 50px auto 50px;
+			}
+
+			.container_dual .container .controls {
+				width: auto;
+			}
+
+			.left {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 90px;
+			}
+			.right {
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 90px;
+			}
+			.touch {
+				position: absolute;
+				left: 50%;
+				top: 0;
+				width: 90px;
+				margin-left: -45px;
+			}
+			.handicap {
+				position: absolute;
+				left: 50%;
+				top: 120px;
+				width: 90px;
+				margin-left: -45px;
+			}
+
+			.pour-controls > div,
+			.ice-controls > div {
+				display: inline-block;
+				margin: 0 20px;
+			}
+
+			.svg-inline--fa.fa-w-16 {
+				height: 90px;
+				width: 90px;
+			}
+		</style>
+	</head>
+	<body>
+	<section class="section">
+		<div class="container">
+			<h1 class="title">
+				ADA Events
+			</h1>
+			<div class="controls">
+				<div class="left" onClick="send('left')">
+					<i class="fas fa-arrow-alt-circle-left"></i>
+				</div>
+				<div class="right" onClick="send('right')">
+					<i class="fas fa-arrow-alt-circle-right"></i>
+				</div>
+				<div class="touch" onMouseDown="send('touch');" onMouseUp="send('release');">
+					<i class="fas fa-dot-circle"></i>
+				</div>
+				<div class="handicap" onClick="send('handicap')">
+					<i class="fas fa-universal-access"></i>
+				</div>
+			</div>
+		</div>
+		<div class="container_dual">
+			<div class="container">
+				<h1 class="title">
+					Pour Events
+				</h1>
+				<div class="controls pour-controls">
+					<div class="pour-start" onClick="startPour()">
+						<i class="fas fa-play-circle"></i>
+					</div>
+					<div class="pour-stop" onClick="stopPour()">
+						<i class="fas fa-stop-circle"></i>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<h1 class="title">
+					ICE Lever Events
+				</h1>
+				<div class="controls ice-controls">
+					<div class="ice-play" onClick="startIce()">
+						<i class="fas fa-play-circle"></i>
+					</div>
+					<div class="ice-stop" onClick="stopIce()">
+						<i class="fas fa-stop-circle"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	</body>
+</html>

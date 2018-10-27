@@ -1,0 +1,55 @@
+
+@import "./../styles/variables.scss";
+
+
+.flavors + .layout_cluster {
+	display: none;
+	.filters {
+		transition: opacity .5s;
+		opacity: 0;
+	}
+	.cii {
+		transition: opacity .5s;
+		opacity: 0;
+	}
+}
+
+
+
+.home {
+	.layout_cluster {
+		position: relative;
+		width: auto;
+		height: auto;
+		overflow: hidden;
+
+		.toTTP {
+			position: fixed;
+			.hw-7000 &, .hw-3100 & {
+				left: 173px;
+				top: 500px;
+				width: 100px;
+				height: 80px;
+			}
+			.hw-9100 &{
+				left: 290px;
+				top: 900px;
+				width: 220px;
+				height: 130px;
+			}
+		}
+
+		> .item.image, > a .item.image {
+			transition: all 0.6s cubic-bezier(0.64, -0.41, 0.39, 1.37);
+		}
+
+		img.cii {
+			position: absolute;
+			right: 25px;
+			bottom: 25px;
+			z-index: 100;
+		}
+
+
+	}
+}

@@ -1,0 +1,199 @@
+/*
+  The code below has been extracted from the following projects:
+  - https://github.com/murtaugh/HTML5-Reset
+  - http://meyerweb.com
+  - http://html5doctor.com
+  - http://html5boilerplate.com
+  … and then cleaned up a lot.
+*/
+
+html, body, div, span, object, iframe, p, blockquote, pre,
+abbr, code, em, img, small, strong, sub, sup, ol, ul, li, fieldset, form, label,
+legend, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header,
+nav, section, time, audio, video {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  font-size: 100%;
+  font-weight: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  font-weight: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, figure, footer, header, nav, section {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+  /*overflow-y: scroll;*/
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+object {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+td {
+  font-weight: normal;
+  vertical-align: top;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
+
+input[type='checkbox'] {
+  vertical-align: bottom;
+}
+
+strong {
+  font-weight: bold;
+}
+
+label,
+input[type='file'] {
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  border: 0;
+  margin: 0;
+}
+
+button,
+input[type='button'],
+input[type='submit'] {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a:focus, a:hover, a:active {
+  background-color: transparent
+}
+
+/* stylelint-disable value-list-comma-space-after, indentation */
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Regular.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/Montserrat-Regular.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Montserrat-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/Montserrat-Regular.svg#95d90f2cd2aa64bdfee0e9f34c516e71') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Bold.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/Montserrat-Bold.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Montserrat-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/Montserrat-Bold.svg#2eb9a020d90588d099da01ff1a93c338') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('./assets/fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/Gotham-Bold.svg#6a327a217ddd10461b1acdc4d224fee0') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+/* UNITY font faces:; */
+@font-face {
+  font-family: 'Unity';
+  src: url('./assets/fonts/TCCC-UnityText-Regular.woff2') format('woff2'),
+    url('./assets/fonts/TCCC-UnityText-Regular.woff') format('woff');
+  font-weight: 300;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'Unity';
+  src: url('./assets/fonts/TCCC-UnityText-Bold.woff2') format('woff2'),
+    url('./assets/fonts/TCCC-UnityText-Bold.woff') format('woff');
+  font-weight: 600;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'Unity';
+  src: url('./assets/fonts/TCCC-UnityText-Light.woff2') format('woff2'),
+    url('./assets/fonts/TCCC-UnityText-Light.woff') format('woff');
+  font-weight: 100;
+  font-smoothing: antialiased;
+}
+
+    
+
+/* stylelint-enable */
+
+body {
+  font-family: Gotham, Arial, sans-serif;
+}

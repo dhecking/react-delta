@@ -1,0 +1,340 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.brand .back {
+  transform: translateX(-300px);
+  transition: all 0.5s; }
+  .route-trans-enter-done .brand .back {
+    transition: all 0.5s 1.2s;
+    transform: translateX(0px); }
+    .ada .route-trans-enter-done .brand .back {
+      transition: all 0.3s; }
+
+.route-trans-exit .brand,
+.route-trans-enter .brand {
+  opacity: 0; }
+
+.brand .sidebar {
+  right: -400px;
+  z-index: 11; }
+  .non-ada .brand .sidebar {
+    transition: all 0.5s 1.2s; }
+  .hw-7000 .brand .sidebar,
+  .hw-3100 .brand .sidebar {
+    top: -30px;
+    right: -45px; }
+  .hw-MLobby .brand .sidebar {
+    z-index: 11;
+    right: auto;
+    top: auto;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 0;
+    width: 440px; }
+  .hw-9100 .route-trans-enter-done .brand .sidebar {
+    transform: translateX(-435px); }
+  .hw-MLobby .route-trans-enter-done .brand .sidebar {
+    bottom: 100%;
+    transform: translate(-50%, 100%); }
+  .brand .sidebar .related {
+    font-family: 'Unity';
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 135%; }
+    .brand .sidebar .related .related-title {
+      padding: 17.5px 35px;
+      margin-top: 17.5px;
+      margin-bottom: 11.66667px; }
+  .brand .sidebar .sra {
+    text-align: center; }
+    .brand .sidebar .sra .translation {
+      font-weight: 100;
+      font-size: 16px; }
+
+.hw-9100 .brand.spinning .logo-container .logo-box .brand-logo,
+.hw-MLobby .brand.spinning .logo-container .logo-box .brand-logo {
+  animation: logo-rotate 0.8s; }
+
+.brand.spinning .logo-container .flavor-label {
+  animation: logo-rotate 0.8s; }
+
+.hw-MLobby .brand.spinning .logo-container .logo-box .brand-logo {
+  animation: logo-rotate_vert 0.8s; }
+
+.hw-MLobby .brand.spinning .logo-container .flavor-label {
+  animation: logo-rotate_vert 0.8s;
+  transform-origin: center; }
+
+.brand .logo-container {
+  opacity: 0; }
+  .brand .logo-container .logo-box {
+    position: absolute;
+    text-align: center;
+    transition: all 0.8s ease-in-out;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 7; }
+    .brand .logo-container .logo-box .brand-logo {
+      z-index: 2; }
+      .hw-9100 .brand .logo-container .logo-box .brand-logo {
+        width: 720px;
+        transition: opacity 0.5s linear;
+        transform: rotate3d(0, 1, 0, 0deg) translateZ(320px);
+        transform-origin: center center;
+        transform-style: preserve-3d; }
+      .hw-7000 .brand .logo-container .logo-box .brand-logo,
+      .hw-3100 .brand .logo-container .logo-box .brand-logo {
+        width: 420px;
+        margin-top: -35px;
+        transition: opacity 0.3s ease-in-out; }
+    .hw-MLobby .brand .logo-container .logo-box {
+      height: 540px;
+      bottom: auto; }
+      .hw-MLobby .brand .logo-container .logo-box .brand-logo {
+        width: 372px; }
+
+.brand.promotion-page .beverage-list {
+  top: 590px; }
+  .brand.promotion-page .beverage-list .item.image {
+    width: 230px;
+    height: 230px; }
+
+.brand.specialty-page .beverage-list {
+  top: 590px; }
+  .brand.specialty-page .beverage-list .item.image {
+    width: 230px;
+    height: 230px; }
+
+.hw-MLobby .brand.promotion-page .beverage-list {
+  top: 1430px; }
+  .hw-MLobby .brand.promotion-page .beverage-list .item.image {
+    width: 210px;
+    height: 210px; }
+
+.hw-MLobby .brand.specialty-page .beverage-list {
+  top: 1430px; }
+  .hw-MLobby .brand.specialty-page .beverage-list .item.image {
+    width: 210px;
+    height: 210px; }
+
+.brand .beverage-list {
+  position: fixed;
+  left: 0;
+  right: 0;
+  min-height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  opacity: 0;
+  transition: all 0.2s linear;
+  top: 800px; }
+  .brand .beverage-list .contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; }
+  .hw-7000 .brand .beverage-list,
+  .hw-3100 .brand .beverage-list {
+    top: 415px; }
+  .brand .beverage-list .item.image {
+    margin: 0 17.5px;
+    position: relative;
+    transform: scale(1);
+    width: 185px;
+    opacity: 1;
+    display: block;
+    z-index: 8;
+    transition: all 0.7s cubic-bezier(0.775, -0.235, 0.02, 1.295); }
+    .hw-7000 .brand .beverage-list .item.image {
+      margin: 0 8px;
+      width: 144px; }
+    .hw-MLobby .brand .beverage-list .item.image {
+      width: 180px;
+      height: 180px; }
+    .brand .beverage-list .item.image.unavailable:after {
+      font-size: 0.9em; }
+    .brand .beverage-list .item.image + span {
+      opacity: 1;
+      display: block;
+      border: 1px dashed blue;
+      border-radius: 50%;
+      height: 25px;
+      width: 25px; }
+  .brand .beverage-list.multirow {
+    flex-direction: column; }
+    .brand .beverage-list.multirow .row {
+      margin: 15px 0; }
+  .hw-MLobby .brand .beverage-list {
+    flex-direction: column;
+    top: auto;
+    bottom: 406px;
+    transform: translateY(50%); }
+
+.non-ada .brand .beverage-list .item.selected {
+  animation: pop-select 0.4s ease-in-out; }
+
+.non-ada .brand.water-page .beverage-list {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%); }
+  .non-ada .brand.water-page .beverage-list .item.image {
+    width: 550px; }
+
+.hw-3100.non-ada .brand.water-page .beverage-list .item.image,
+.hw-7000.non-ada .brand.water-page .beverage-list .item.image {
+  width: 280px;
+  height: 280px; }
+
+.hw-MLobby.non-ada .brand.water-page .beverage-list {
+  top: auto;
+  bottom: 40%;
+  transform: none; }
+  .hw-MLobby.non-ada .brand.water-page .beverage-list .item.image {
+    width: 372px;
+    height: 372px; }
+  .hw-MLobby.non-ada .brand.water-page .beverage-list.bevs-2 .item.image {
+    width: 400px !important;
+    height: 400px !important;
+    margin: 0 80px; }
+
+.ada .brand .logo-container {
+  display: none;
+  opacity: 0; }
+
+.ada .brand .beverage-list {
+  top: 300px;
+  left: 175px;
+  right: 490px; }
+  .ada .brand .beverage-list .contents {
+    flex-wrap: wrap; }
+  .ada .brand .beverage-list .item.image {
+    width: 230px;
+    height: 230px;
+    flex-basis: 230px;
+    margin-bottom: 35px; }
+  .ada .brand .beverage-list.bevs-1, .ada .brand .beverage-list.bevs-2, .ada .brand .beverage-list.bevs-3, .ada .brand .beverage-list.bevs-4 {
+    flex-wrap: nowrap; }
+  .ada .brand .beverage-list.bevs-5 .contents, .ada .brand .beverage-list.bevs-6 .contents {
+    width: 795px; }
+  .ada .brand .beverage-list.bevs-7 .contents, .ada .brand .beverage-list.bevs-8 .contents {
+    width: 1060px; }
+
+.ada .brand .selected {
+  border: 0px solid #2a2a2a; }
+
+.hw-MLobby.ada .brand .beverage-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: auto;
+  bottom: 720px;
+  left: 100px;
+  right: 100px; }
+  .hw-MLobby.ada .brand .beverage-list .item.image,
+  .hw-MLobby.ada .brand .beverage-list .item.image img {
+    height: 180px;
+    width: 180px;
+    flex-basis: auto; }
+
+.hw-7000.ada .brand .sidebar,
+.hw-3100.ada .brand .sidebar {
+  top: 15vh; }
+
+.hw-7000.ada .brand .beverage-list,
+.hw-3100.ada .brand .beverage-list {
+  top: 10vh;
+  left: 10%;
+  right: 30%; }
+  .hw-7000.ada .brand .beverage-list .item.image,
+  .hw-7000.ada .brand .beverage-list .item.image img,
+  .hw-3100.ada .brand .beverage-list .item.image,
+  .hw-3100.ada .brand .beverage-list .item.image img {
+    height: 144px;
+    width: 144px;
+    flex-basis: auto; }
+
+.route-trans-enter-done .brand .logo-container {
+  opacity: 1;
+  transition: opacity 0.5s 1s; }
+
+.route-trans-enter-done .brand .beverage-list {
+  opacity: 1; }
+
+.route-trans-enter-done .brand .glass-mask {
+  opacity: 1; }
+
+.route-trans-enter-done .brand .glass-container {
+  opacity: 1; }
+
+.route-trans-enter-done .brand .brand-logo,
+.route-trans-enter-done .brand .flavor-label-container {
+  opacity: 1; }
+
+.route-trans-exit .brand .beverage-list .item.image {
+  opacity: 1;
+  visibility: visible; }
+  .hw-9100 .route-trans-exit .brand .beverage-list .item.image {
+    animation: exit-stage-bottom 0.8s forwards; }
+  .hw-7000 .route-trans-exit .brand .beverage-list .item.image,
+  .hw-3100 .route-trans-exit .brand .beverage-list .item.image {
+    transition: opacity 1s;
+    opacity: 0; }
+
+.route-trans-exit .brand .glass-mask {
+  opacity: 0; }
+
+@keyframes logo-rotate {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg) translateZ(320px);
+    opacity: 1; }
+  50% {
+    opacity: 0.3; }
+  100% {
+    transform: rotate3d(0, 1, 0, -360deg) translateZ(320px);
+    opacity: 1; } }
+
+@keyframes logo-rotate_vert {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg) translateZ(120px);
+    opacity: 1; }
+  50% {
+    opacity: 0.3; }
+  100% {
+    transform: rotate3d(0, 1, 0, -360deg) translateZ(120px);
+    opacity: 1; } }
+
+@keyframes pop-select {
+  0% {
+    transform: translateY(0px);
+    visibility: visible;
+    opacity: 1; }
+  60% {
+    transform: translateY(-80px);
+    visibility: visible;
+    opacity: 1; }
+  85% {
+    transform: translateY(20px);
+    visibility: visible;
+    opacity: 1; }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1; } }
+
+.route-trans-enter-done .brand.specialty-page .back, .route-trans-enter-done .brand.promotion-page .back {
+  transition: all 0.5s 0.5s; }

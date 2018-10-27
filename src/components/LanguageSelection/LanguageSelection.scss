@@ -1,0 +1,77 @@
+
+@import "./../styles/variables.scss";
+
+.translation {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+.languageSelection {
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 1080px;
+	transition: all .3s;
+	z-index: 8;
+
+	.back {
+		position: absolute !important;
+		z-index: 9 !important;
+		opacity: 1 !important;
+	}
+
+	.languages {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-flow: center;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		height: 1080px;
+		padding: 5% 20%;
+	}
+	
+	.language {
+		width: $level3_9100;
+		height: $level3_9100;
+		line-height: $level3_9100;
+		border-radius: 100%;
+		background: #333;
+		color: #fff;
+		text-align: center;
+		font-size: 24px;
+		// border: 4px solid #333;
+		flex: none;
+		margin: 2%;
+		.ada & {
+			background: #4292D5;
+		}
+		&.active {
+			// border-color: red;
+		}
+	}
+
+
+	// Animations:
+	.route-trans-enter & {
+		transform: translateY(1080px);
+	}
+	.route-trans-enter-done &, .route-trans-enter-active & {
+		transform: translateY(0);
+	}
+	.route-trans-exit & {
+		transform: translateY(0);
+	}
+	.route-trans-exit-active & {
+		transform: translateY(1080px);
+	}
+
+}
+
+
+
+

@@ -1,0 +1,81 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.ada-close {
+  font-family: 'Unity';
+  position: fixed;
+  right: -400px;
+  top: 35px;
+  width: 205px;
+  height: 95px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  border-radius: 115px;
+  transition: all .5s;
+  z-index: 100; }
+  .ada-close.enabled {
+    transition: all .5s .5s;
+    transform: translateX(-435px); }
+  .ada-close .bordered {
+    border-radius: 115px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px solid #eee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff; }
+    .ada-close .bordered .svg-inline--fa {
+      margin-left: 17.5px; }
+    .ada-close .bordered .img {
+      max-height: 60px; }
+      .ada-close .bordered .img svg {
+        width: auto;
+        height: auto; }
+    .ada-close .bordered div {
+      display: flex;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 100; }
+  .hw-7000 .ada-close, .hw-3100 .ada-close {
+    width: 65px;
+    height: 120px;
+    top: 25px; }
+    .hw-7000 .ada-close .bordered, .hw-3100 .ada-close .bordered {
+      border-width: 5px; }
+    .hw-7000 .ada-close svg.fa-times, .hw-3100 .ada-close svg.fa-times {
+      font-size: 2.5em;
+      margin-left: 2px; }
+    .hw-7000 .ada-close .img, .hw-3100 .ada-close .img {
+      max-height: 50px; }
+    .hw-7000 .ada-close.enabled, .hw-3100 .ada-close.enabled {
+      transform: translateX(-420px); }
+  .hw-MLobby .ada-close {
+    width: 150px;
+    height: 80px;
+    top: 414px; }
+    .hw-MLobby .ada-close .bordered {
+      border-width: 7px; }
+    .hw-MLobby .ada-close svg.fa-times {
+      font-size: 2.5em; }
+    .hw-MLobby .ada-close .img {
+      max-height: 50px; }
+      .hw-MLobby .ada-close .img svg {
+        position: relative;
+        right: -5px; }
+    .hw-MLobby .ada-close.enabled {
+      transform: translateX(-455px); }

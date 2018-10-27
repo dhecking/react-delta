@@ -1,0 +1,85 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.timeout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 19999;
+  width: 100%;
+  height: 100%;
+  /*
+	.hw-9100 & {
+		max-width: 1024px;
+		max-height: 600px;
+	}
+	*/ }
+  .hw-9100 .timeout {
+    max-width: 1920px;
+    max-height: 1080px; }
+  .timeout .overlay {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8); }
+    .hw-9100 .timeout .overlay {
+      width: 1920px;
+      height: 1080px; }
+  .timeout .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 620px;
+    height: 620px;
+    transform: translateX(-50%) translateY(-50%); }
+    .hw-7000 .timeout .inner,
+    .hw-3100 .timeout .inner {
+      width: 520px;
+      height: 520px; }
+  .timeout .bg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    border: 10px solid #de0a1c; }
+  .timeout .text {
+    width: 100%;
+    text-align: center; }
+  .timeout .title {
+    font-size: 70px; }
+    .hw-7000 .timeout .title,
+    .hw-3100 .timeout .title {
+      font-size: 50px; }
+  .timeout .subtitle {
+    margin-top: 20px;
+    font-size: 45px; }
+    .hw-7000 .timeout .subtitle,
+    .hw-3100 .timeout .subtitle {
+      font-size: 30px; }
+  .timeout .tip {
+    position: fixed;
+    left: 50%;
+    width: 0;
+    height: calc(100% - 10px);
+    transform: rotate(0deg);
+    transition: transform 1s linear; }
+    .timeout .tip.rotate {
+      transform: rotate(360deg); }
+    .timeout .tip:before {
+      content: '';
+      display: block;
+      position: fixed;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #de0a1c;
+      transform: translateX(-50%) translateY(-50%); }

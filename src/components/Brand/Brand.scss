@@ -1,0 +1,515 @@
+@import './../styles/variables.scss';
+
+.brand {
+  .back {
+    transform: translateX(-300px);
+    transition: all 0.5s;
+    .route-trans-enter-done & {
+      transition: all 0.5s 1.2s;
+      .ada & {
+        transition: all 0.3s;
+      }
+      transform: translateX(0px);
+    }
+  }
+
+  .route-trans-exit &,
+  .route-trans-enter & {
+    opacity: 0;
+  }
+
+  .sidebar {
+    right: -400px;
+    z-index: 11;
+    .non-ada & {
+      transition: all 0.5s 1.2s;
+    }
+
+    .hw-7000 &,
+    .hw-3100 & {
+      top: -30px;
+      right: -45px;
+    }
+
+    .hw-MLobby & {
+      z-index: 11;
+      right: auto;
+      top: auto;
+      bottom: 110%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-top: 0;
+      width: 440px;
+    }
+
+    .route-trans-enter-done & {
+      .hw-9100 & {
+        transform: translateX(-435px);
+      }
+
+      .hw-MLobby & {
+        bottom: 100%;
+        transform: translate(-50%, 100%);
+      }
+    }
+    .related {
+      font-family: 'Unity';
+      font-size: 18px;
+      text-align: center;
+      font-weight: 300;
+      line-height: 135%;
+      .related-title {
+        padding: $gutter/2 $gutter;
+        margin-top: $gutter/2;
+        margin-bottom: $gutter/3;
+      }
+    }
+    .sra {
+      text-align: center;
+      .translation {
+        font-weight: 100;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &.spinning {
+    .logo-container {
+      .logo-box {
+        .brand-logo {
+          .hw-9100 &,
+          .hw-MLobby & {
+            // animation-delay: .2s !important;
+            // transition: transform .5s forward !important;
+            animation: logo-rotate 0.8s;
+          }
+        }
+      }
+      .flavor-label {
+        animation: logo-rotate 0.8s;
+      }
+    }
+
+    .hw-MLobby & {
+      .logo-container {
+        .logo-box {
+          .brand-logo {
+            // animation-delay: .2s !important;
+            // transition: transform .5s forward !important;
+            animation: logo-rotate_vert 0.8s;
+          }
+        }
+        .flavor-label {
+          animation: logo-rotate_vert 0.8s;
+          transform-origin: center;
+        }
+      }
+    }
+  }
+
+  .logo-container {
+    opacity: 0;
+    .logo-box {
+      position: absolute;
+      text-align: center;
+      transition: all 0.8s ease-in-out;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 7;
+      .brand-logo {
+        z-index: 2;
+        .hw-9100 & {
+          width: 720px;
+          transition: opacity 0.5s linear;
+          transform: rotate3d(0, 1, 0, 0deg) translateZ(320px);
+          transform-origin: center center;
+          transform-style: preserve-3d;
+        }
+        .hw-7000 &,
+        .hw-3100 & {
+          width: 420px;
+          margin-top: -35px;
+          transition: opacity 0.3s ease-in-out;
+        }
+      }
+
+      .hw-MLobby & {
+        height: 540px;
+        bottom: auto;
+
+        .brand-logo {
+          width: 372px;
+        }
+      }
+    }
+  }
+
+  &.promotion-page {
+    .beverage-list {
+      top: ($height_9100 - 490px);
+      .item.image {
+        width: $level3_9100;
+        height: $level3_9100;
+      }
+    }
+  }
+
+  &.specialty-page {
+    .beverage-list {
+      top: ($height_9100 - 490px);
+      .item.image {
+        width: $level3_9100;
+        height: $level3_9100;
+      }
+    }
+  }
+
+  .hw-MLobby & {
+    &.promotion-page {
+      .beverage-list {
+        top: ($height_MLobby - 490px);
+        .item.image {
+          width: $level3_MLobby;
+          height: $level3_MLobby;
+        }
+      }
+    }
+
+    &.specialty-page {
+      .beverage-list {
+        top: ($height_MLobby - 490px);
+        .item.image {
+          width: $level3_MLobby;
+          height: $level3_MLobby;
+        }
+      }
+    }
+  }
+
+  .beverage-list {
+    position: fixed;
+    left: 0;
+    right: 0;
+    min-height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    opacity: 0;
+    transition: all 0.2s linear;
+    top: ($height_9100 - 280px);
+
+    .contents {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .hw-7000 &,
+    .hw-3100 & {
+      top: 415px;
+    }
+
+    .item.image {
+      margin: 0 $gutter/2;
+      position: relative;
+      transform: scale(1);
+      width: $level2_9100;
+      // height: $level2_9100;
+      opacity: 1;
+      display: block;
+      z-index: 8;
+      transition: all 0.7s cubic-bezier(0.775, -0.235, 0.02, 1.295);
+      .hw-7000 & {
+        margin: 0 8px;
+        width: $level2a_7000;
+        // height: $level2a_7000;
+      }
+
+      .hw-MLobby & {
+        width: $level2_MLobby;
+        height: $level2_MLobby;
+      }
+
+      &.unavailable:after {
+        font-size: 0.9em;
+      }
+      + span {
+        opacity: 1;
+        display: block;
+        border: 1px dashed blue;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+      }
+    }
+
+    &.multirow {
+      flex-direction: column;
+
+      .row {
+        margin: 15px 0;
+      }
+    }
+
+    .hw-MLobby & {
+      flex-direction: column;
+      top: auto;
+      bottom: 406px;
+      transform: translateY(50%);
+    }
+  }
+
+  .non-ada & {
+    .beverage-list {
+      // top: 830px;
+      .item.selected {
+        animation: pop-select 0.4s ease-in-out;
+      }
+    }
+    &.water-page {
+      .beverage-list {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+
+        .item.image {
+          width: 550px;
+        }
+      }
+    }
+  }
+
+  .hw-3100.non-ada &,
+  .hw-7000.non-ada & {
+    &.water-page {
+      .beverage-list {
+        .item.image {
+          width: 280px;
+          height: 280px;
+        }
+      }
+    }
+  }
+
+  .hw-MLobby.non-ada & {
+    &.water-page {
+      .beverage-list {
+        top: auto;
+        bottom: 40%;
+        transform: none;
+        .item.image {
+          width: 372px;
+          height: 372px;
+        }
+
+        &.bevs-2 {
+          .item.image {
+            width: 400px !important;
+            height: 400px !important;
+            margin: 0 80px;
+          }
+        }
+      }
+    }
+  }
+
+  .ada & {
+    // background: $adaBg;
+    .logo-container {
+      display: none;
+      opacity: 0;
+    }
+    .beverage-list {
+      top: 300px;
+      left: $gutter * 5;
+      right: $gutter * 14;
+      .contents {
+        flex-wrap: wrap;
+      }
+      .item.image {
+        width: $level3_9100;
+        height: $level3_9100;
+        flex-basis: $level3_9100;
+        margin-bottom: $gutter;
+      }
+      &.bevs-1,
+      &.bevs-2,
+      &.bevs-3,
+      &.bevs-4 {
+        flex-wrap: nowrap;
+      }
+      &.bevs-5,
+      &.bevs-6 {
+        .contents {
+          width: (($level3_9100 + $gutter) * 3);
+        }
+      }
+      &.bevs-7,
+      &.bevs-8 {
+        .contents {
+          width: (($level3_9100 + $gutter) * 4);
+        }
+      }
+    }
+    .selected {
+      border: 0px solid $adaBg;
+    }
+  }
+
+  .hw-MLobby.ada & {
+    .beverage-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      top: auto;
+      bottom: 720px;
+      left: 100px;
+      right: 100px;
+
+      .item.image {
+        &,
+        & img {
+          height: 180px;
+          width: 180px;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+
+  .hw-7000.ada &,
+  .hw-3100.ada & {
+    .sidebar {
+      top: 15vh;
+    }
+    .beverage-list {
+      top: 10vh;
+      left: 10%;
+      right: 30%;
+      .item.image {
+        &,
+        & img {
+          height: $level2a_7000;
+          width: $level2a_7000;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+
+  .route-trans-enter-done & {
+    .logo-container {
+      opacity: 1;
+      transition: opacity 0.5s 1s;
+    }
+    .beverage-list {
+      opacity: 1;
+    }
+    .glass-mask {
+      opacity: 1;
+    }
+    .glass-container {
+      opacity: 1;
+    }
+    .brand-logo,
+    .flavor-label-container {
+      opacity: 1;
+    }
+  }
+
+  .route-trans-exit & {
+    .beverage-list {
+      .item.image {
+        opacity: 1;
+        visibility: visible;
+        .hw-9100 & {
+          animation: exit-stage-bottom 0.8s forwards;
+        }
+        .hw-7000 &,
+        .hw-3100 & {
+          transition: opacity 1s;
+          opacity: 0;
+        }
+      }
+    }
+    .glass-mask {
+      opacity: 0;
+    }
+  }
+}
+
+@keyframes logo-rotate {
+  0% {
+    // transform: rotateY(0deg) translateZ(320px);
+    transform: rotate3d(0, 1, 0, 0deg) translateZ(320px);
+    opacity: 1;
+  }
+
+  50% {
+    // transform: rotateY(-180deg) translateZ(320px);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: rotate3d(0, 1, 0, -360deg) translateZ(320px);
+    // transform: rotateY( -360deg ) translateZ(320px);
+    opacity: 1;
+  }
+}
+
+@keyframes logo-rotate_vert {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg) translateZ(120px);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, -360deg) translateZ(120px);
+    opacity: 1;
+  }
+}
+
+@keyframes pop-select {
+  0% {
+    transform: translateY(0px);
+    // transform: translateY( -30px )
+    visibility: visible;
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(-80px);
+    visibility: visible;
+    opacity: 1;
+  }
+  85% {
+    transform: translateY(20px);
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+// Overrides for Specialty / Promotional Pages:
+.brand {
+  &.specialty-page,
+  &.promotion-page {
+    .back {
+      .route-trans-enter-done & {
+        transition: all 0.5s 0.5s;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@import './../styles/variables.scss';
+
+.timeout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 19999;
+  width: 100%;
+  height: 100%;
+
+  .hw-9100 & {
+    max-width: $width_9100;
+    max-height: $height_9100;
+  }
+
+  /*
+	.hw-9100 & {
+		max-width: 1024px;
+		max-height: 600px;
+	}
+	*/
+
+  .overlay {
+    position: fixed;
+    background: rgba(white, 0.8);
+    .hw-9100 & {
+      width: $width_9100;
+      height: $height_9100;
+    }
+  }
+
+  .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 620px;
+    height: 620px;
+    transform: translateX(-50%) translateY(-50%);
+    .hw-7000 &,
+    .hw-3100 & {
+      width: 520px;
+      height: 520px;
+    }
+  }
+
+  .bg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    border: 10px solid #de0a1c;
+  }
+
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 70px;
+    .hw-7000 &,
+    .hw-3100 & {
+      font-size: 50px;
+    }
+  }
+
+  .subtitle {
+    margin-top: 20px;
+    font-size: 45px;
+    .hw-7000 &,
+    .hw-3100 & {
+      font-size: 30px;
+    }
+  }
+
+  .tip {
+    position: fixed;
+    left: 50%;
+    width: 0;
+    height: calc(100% - 10px);
+    // will-change: transform;
+    transform: rotate(0deg);
+    transition: transform 1s linear;
+
+    // .is-visible & {
+    //   animation: spinAnim 6s linear infinite forwards;
+    // }
+
+    &.rotate {
+      transform: rotate(360deg);
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: fixed;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #de0a1c;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+}

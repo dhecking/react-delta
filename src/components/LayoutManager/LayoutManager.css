@@ -1,0 +1,43 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.flavors + .layout_cluster {
+  display: none; }
+  .flavors + .layout_cluster .filters {
+    transition: opacity .5s;
+    opacity: 0; }
+  .flavors + .layout_cluster .cii {
+    transition: opacity .5s;
+    opacity: 0; }
+
+.home .layout_cluster {
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden; }
+  .home .layout_cluster .toTTP {
+    position: fixed; }
+    .hw-7000 .home .layout_cluster .toTTP, .hw-3100 .home .layout_cluster .toTTP {
+      left: 173px;
+      top: 500px;
+      width: 100px;
+      height: 80px; }
+    .hw-9100 .home .layout_cluster .toTTP {
+      left: 290px;
+      top: 900px;
+      width: 220px;
+      height: 130px; }
+  .home .layout_cluster > .item.image, .home .layout_cluster > a .item.image {
+    transition: all 0.6s cubic-bezier(0.64, -0.41, 0.39, 1.37); }
+  .home .layout_cluster img.cii {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    z-index: 100; }

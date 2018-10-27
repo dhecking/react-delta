@@ -1,0 +1,266 @@
+@import "./../styles/variables.scss";
+
+.video-box {
+	position: fixed;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	.contained {
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	.hw-9100 &{
+		width: 1920px;
+		height: 1080px;
+	}
+	.hw-7000 &, .hw-3100 & {
+		width: 1024px;
+		height: 600px;
+	}
+	.vid {
+		position: absolute;
+		transform: translateY(1080px);
+		top: 0;
+		opacity: 0;
+	}
+	.vid.pour {
+		opacity: 0;
+		z-index: 5;
+		transition: all .5s;
+	}
+	.vid.loop {
+		opacity: 0;
+		z-index: 3;
+	}
+	.vid.spin {
+		opacity: 0;
+		z-index: 4;
+		transition: opacity .5s ease-in-out !important;
+	}
+
+	.glass-mask {
+		position: fixed;
+		top: 0;
+		left: 50%;
+		width: $glass_video_w;
+		height: $glass_video_h;
+		opacity: 0;
+		z-index: 6;
+		pointer-events: none;
+		mix-blend-mode: overlay;
+		transform: translate(-($glass_video_w/2), 200px);
+
+			.hw-MLobby & {
+				width: $glass_video_full_w;
+				height: $glass_video_full_h;
+				transform: translate(-($glass_video_full_w/2), 25px);
+			}
+	}
+
+	&.enabled {
+		animation: vid-box-entering 1s ease-in-out forwards;
+		.pour {
+			// opacity: 1;
+			// animation: vid-entering 2.0s ease-in-out forwards;
+		}
+		.loop {
+			// opacity: 1;
+			transform: translateY( 0 );
+			// animation: loop-entering 1.2s ease-in-out forwards;
+		}
+		.vid.spin {
+			transform: translateY( 0 );
+			opacity: 0;
+		}
+	}
+
+	&.exiting {
+		.vid {
+			transition: all .5s !important;
+			animation: vid-exit-bottom .3s ease-in-out forwards;
+		}
+		.glass-mask {
+			transform: translateY( 1080px );
+			opacity: 0;
+		}
+	}
+
+	&.entering {
+		transform: translateY( 0 );
+		.vid.loop {
+			opacity: 1;
+			// z-index: 2;
+			// transform: translateY( 0 );
+			// animation: loop-entering 1.2s ease-in-out forwards;
+		}
+		.glass-mask {
+			opacity: 1;
+			transition: opacity 1s .3s linear;
+		}
+	}
+
+	&.entered {
+		transform: translateY( 0 );
+		.vid.pour {
+			transform: translateY( 0 );
+		}
+		.vid.loop {
+			opacity: 1;
+			z-index: 2;
+			transform: translateY( 0 );
+		}
+		.glass-mask {
+			opacity: 1;
+			transition: opacity 1s .3s linear;
+		}
+	}
+
+	.pour.active {
+		opacity: 1;
+		animation: vid-entering 1.5s ease-in-out forwards;
+	}
+	.loop.active {
+		opacity: 1;
+		transform: translateY( 0 );
+		transition: opacity 0s 1.2s;
+	}
+
+}
+
+
+
+@keyframes vid-exit-bottom {
+	0% {
+		transform: translateY( 0 );
+	}
+	/*
+	20% {
+		transform: translateY( -150px );
+	}
+	*/
+	100% {
+		transform: translateY( 1080px );
+		opacity: 0;
+	}
+}
+
+
+@keyframes vid-box-entering {
+	0% {
+		opacity: 0;
+		transform: translateY(1080px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY( 0 );
+	}
+}
+
+@keyframes vid-entering {
+	0% {
+		opacity: 1;
+		transform: translateY(1080px);
+	}
+	60% {
+		opacity: 1;
+		transform: translateY( 0 );
+	}
+	90% {
+		opacity: 0;
+		transform: translateY( 0 );
+	}
+	100% {
+		opacity: 0;
+		transform: translateY( 0 );
+	}
+}
+
+
+@keyframes vid-spinning {
+	0% {
+		opacity: .1;
+		transform: translateY(0);
+	}
+	20% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: .1;
+		transform: translateY( 0 );
+	}
+}
+
+
+@keyframes loop-entering {
+	0% {
+		opacity: 0;
+		transform: translateY( 0 );
+	}
+	80% {
+		opacity: 0;
+		transform: translateY( 0 );
+	}
+	90% {
+		opacity: 1;
+		transform: translateY( 0 );
+	}
+	100% {
+		opacity: 1;
+		transform: translateY( 0 );
+	}
+}
+
+@keyframes flavor-entering {
+	0% {
+		opacity: 0;
+		transform: translateY(1080px);
+	}
+	// 10% {
+	// 	opacity: 0;
+	// 	transform: translateY(1080px);
+	// }
+	100% {
+		opacity: 1;
+		transform: translateY(200px);
+	}
+}
+
+@keyframes flavor-exit-bottom {
+	0% {
+		transform: translateY( 200px );
+	}
+	/*
+	20% {
+		transform: translateY( 50px );
+	}
+	*/
+	100% {
+		opacity: 0;
+		transform: translateY( 1080px );
+	}
+}
+
+
+.hw-MLobby {
+	.video-box {
+		top: 360px;
+		left: 50%;
+		margin-left: -($width_MLobby * .4375);
+		width: $width_MLobby * .875;
+		height: $width_MLobby * .875;
+		clip-path: inset(0px);
+
+		video {
+			height: $width_MLobby * .875;
+		}
+	}
+
+	.overlays {
+		overflow: hidden;
+	}
+}

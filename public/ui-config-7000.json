@@ -1,0 +1,4728 @@
+{
+  "hardware": {
+    "model": "7000",
+    "meta": {
+      "ttpEnabled": false
+    }
+  },
+  "settings": {
+    "videoEnabled": false,
+    "language": {
+      "defaultLanguage": "en-us",
+      "availableLanguages": ["en-us"]
+    }
+  },
+  "homeScreen": {
+    "ambient": {
+      "display": {
+        "background": [
+          {
+            "image": "/images/ambients/ambient-1.png",
+            "priority": 0
+          }
+        ]
+      }
+    }
+  },
+  "languages": {
+    "en-us": {
+      "name": "English",
+      "displayName": "English",
+      "code": "en-us",
+      "translations": {
+        "beverage.dietCokeCaffeineFreeRaspberry": "Diet Coke Caffeine Free Raspberry",
+        "ingredient.1048853": "Coke Zero B",
+        "flavor.unflavored": "Unflavored",
+        "ingredient.1048852": "Coke Zero",
+        "beverage.fuzeTeaLemonade": "Fuze Tea Lemonade",
+        "brand.dietCokeCaffeineFree": "Diet Coke Caffeine Free",
+        "brand.minuteMaidDrinks": "Minute Maid Drinks",
+        "ingredient.1048617": "Sanitizer",
+        "ingredient.1048616": "Sanitizer",
+        "ingredient.1048736": "Strawberry",
+        "ingredient.1048857": "Diet Coke B",
+        "ingredient.1048856": "Diet Coke",
+        "flavor.peachLemonade": "Peach Lemonade",
+        "contentGroup.low2FNoCalorie.title": "Low/No Calorie",
+        "beverage.melloYelloZeroOrange": "Mello Yello Zero Orange",
+        "beverage.poweradeZeroFruitPunch": "Powerade Zero Fruit Punch",
+        "beverage.dasaniRaspberry": "Dasani Raspberry",
+        "beverage.barqsCremeSodaDietStrawberry": "Barqs Creme Soda Diet Strawberry",
+        "beverage.barqsDiet": "Barqs Diet",
+        "beverage.fHSubsCherryLimeadeLight": "FH Subs - Cherry Limeade Light",
+        "beverage.pibbXtraStrawberry": "Pibb Xtra Strawberry",
+        "customTitle.chooseaCategory.text.ada": "choose a category",
+        "beverage.spriteOrange": "Sprite Orange",
+        "caloricSubTitleText.whatYouEat2CDrinkAndDo.text": "what you eat, drink and do",
+        "flavor.vanilla": "Vanilla",
+        "ingredient.1048600": "Sparkling Water",
+        "ingredient.1048720": "Lemon",
+        "ingredient.1048728": "Raspberry",
+        "ingredient.1048849": "Coca-Cola B",
+        "ingredient.1048969": "Barqs B",
+        "ingredient.1048848": "Coca-Cola",
+        "ingredient.1048968": "Barqs",
+        "customTitle.myPersonalFaves.text": "my personal faves",
+        "ingredient.1048724": "Fruit Punch",
+        "beverage.minuteMaidDrinksGrape": "Minute Maid Drinks Grape",
+        "beverage.pibbZero": "Pibb Zero",
+        "brand.minuteMaidSparkling": "Minute Maid Sparkling",
+        "beverage.cocaColaLime": "Coca-Cola Lime",
+        "flavor.orangeVanilla": "Orange Vanilla",
+        "beverage.dietCokeCaffeineFreeVanilla": "Diet Coke Caffeine Free Vanilla",
+        "brand.pibbZero": "Pibb Zero",
+        "flavor.raspberryLime": "Raspberry Lime",
+        "beverage.pibbXtraCherryVanilla": "Pibb Xtra Cherry Vanilla",
+        "beverage.spriteGrape": "Sprite Grape",
+        "ingredient.1048716": "Vanilla",
+        "beverage.vitaminwaterLemonadeC": "Vitaminwater Lemonade C",
+        "ingredient.1048712": "Lime",
+        "brand.dasani": "Dasani",
+        "beverage.melloYelloCherry": "Mello Yello Cherry",
+        "beverage.vitaminwaterTropicalC": "Vitaminwater Tropical C",
+        "beverage.poweradeZeroOrange": "Powerade Zero Orange",
+        "beverage.fHSubsCherryLimeadeLightSparkling": "FH Subs - Cherry Limeade Light Sparkling",
+        "flavor.raspberryPeach": "Raspberry Peach",
+        "beverage.fantaOrange": "Fanta Orange",
+        "flavor.raspberry": "Raspberry",
+        "beverage.minuteMaidLemonadePeach": "Minute Maid Lemonade Peach",
+        "ingredient.1048829": "Coke Zero Sugar v2",
+        "ingredient.1048708": "Cherry",
+        "ingredient.1048828": "Coke Zero Sugar",
+        "beverage.spriteRaspberry": "Sprite Raspberry",
+        "beverage.melloYelloZeroLimeade": "Mello Yello Zero Limeade",
+        "textEmptyText.myMixes.text": "my mixes",
+        "beverage.barqsCremeSodaStrawberry": "Barqs Creme Soda Strawberry",
+        "beverage.cocaColaVanilla": "Coca-Cola Vanilla",
+        "beverage.fuzeTeaDiet": "Fuze Tea Diet",
+        "beverage.hiCFruitPunch": "Hi-C Fruit Punch",
+        "beverage.spriteZeroPeach": "Sprite Zero Peach",
+        "beverage.melloYelloZeroCherry": "Mello Yello Zero Cherry",
+        "beverage.fantaRaspberry": "Fanta Raspberry",
+        "beverage.fuzeTeaLemon": "Fuze Tea Lemon",
+        "beverage.melloYelloLimeade": "Mello Yello Limeade",
+        "beverage.promoSummerVeryBerrySplash": "Promo - Summer - Very Berry Splash",
+        "nationalPromoCustomTitle.pickYour.text.ada": "Pick Your",
+        "nutritionText.naturalFlavors.text": "Natural flavors.",
+        "beverage.seagramsGingerAle": "Seagrams Ginger Ale",
+        "flavor.pinkLemonade": "Pink Lemonade",
+        "nutritionText.naturalFlavorsNutrientEnhancedWaterBeverage2CSweeteners2CNutrients2CAndLevelsDifferFromBottledVitaminwaterForFullNutritionalInformation2CVisitVitaminwaterCom2Ffreestyle.text": "Natural flavors. Nutrient enhanced water beverage, sweeteners, nutrients, and levels differ from bottled vitaminwater. For full nutritional information, visit vitaminwater.com/freestyle",
+        "beverage.dietCokeCaffeineFreeLime": "Diet Coke Caffeine Free Lime",
+        "beverage.poweradeLemon": "Powerade Lemon",
+        "beverage.drPepperDiet": "Dr Pepper Diet",
+        "beverage.barqs": "Barqs",
+        "beverage.minuteMaidLemonadeLightPeach": "Minute Maid Lemonade Light Peach",
+        "ingredient.1050984": "Ing Solution CC",
+        "beverage.drPepperCherry": "Dr Pepper Cherry",
+        "beverage.spriteZeroStrawberry": "Sprite Zero Strawberry",
+        "beverage.dasaniGrape": "Dasani Grape",
+        "flavor.cherryLimeade": "Cherry Limeade",
+        "beverage.minuteMaidSparklingStrawberry": "Minute Maid Sparkling Strawberry",
+        "beverage.spriteZeroRaspberry": "Sprite Zero Raspberry",
+        "nutritionText.naturallyAndArtificiallyFlavored.text": "Naturally and artificially flavored.",
+        "beverage.dasaniLime": "Dasani Lime",
+        "brand.fanta": "Fanta",
+        "beverage.fantaCherry": "Fanta Cherry",
+        "beverage.spriteCherry": "Sprite Cherry",
+        "beverage.pibbXtra": "Pibb Xtra",
+        "brand.waterUnbranded": "Water Unbranded",
+        "beverage.barqsVanilla": "Barqs Vanilla",
+        "brand.pibbXtra": "Pibb Xtra",
+        "beverage.fuzeTeaRaspberry": "Fuze Tea Raspberry",
+        "promotion.uS9100MMSummerPromo.name": "US 9100 - MM Summer Promo",
+        "pourState.pushToPour.text": "push to pour",
+        "beverage.promoSummerDreamyOrangeLemonade": "Promo - Summer - Dreamy Orange Lemonade",
+        "ingredient.1048908": "Vitaminwater",
+        "beverage.dasaniPeach": "Dasani Peach",
+        "productRule.action.purge": "Purge",
+        "textEmptyText.myFavorites.text": "my favorites",
+        "flavor.cherryVanilla": "Cherry Vanilla",
+        "brand.fantaZero": "Fanta Zero",
+        "beverage.melloYelloZeroCitrusTwist": "Mello Yello Zero Citrus Twist",
+        "ingredient.1048905": "Sprite CCB",
+        "ingredient.1048904": "Sprite CC",
+        "beverage.spritePeach": "Sprite Peach",
+        "beverage.barqsCremeSodaOrange": "Barqs Creme Soda Orange",
+        "ingredient.1048901": "Sprite B",
+        "ingredient.1048900": "Sprite",
+        "beverage.hiCOrangeVanilla": "Hi-C Orange Vanilla",
+        "beverage.melloYelloOrange": "Mello Yello Orange",
+        "beverage.barqsDietVanilla": "Barqs Diet Vanilla",
+        "beverage.minuteMaidDrinksLightGrape": "Minute Maid Drinks Light Grape",
+        "beverage.poweradeZeroCherry": "Powerade Zero Cherry",
+        "beverage.cocaColaRaspberry": "Coca-Cola Raspberry",
+        "textEmptyText.3ANoFavoritesCreated.emptyText": ": no favorites created",
+        "beverage.minuteMaidDrinksFruitPunch": "Minute Maid Drinks Fruit Punch",
+        "beverage.barqsCremeSodaDietPeach": "Barqs Creme Soda Diet Peach",
+        "beverage.fuzeTeaStrawberry": "Fuze Tea Strawberry",
+        "beverage.minuteMaidLemonadeLightPink": "Minute Maid Lemonade Light Pink",
+        "beverage.minuteMaidLemonadeLightOrange": "Minute Maid Lemonade Light Orange",
+        "flavor.unsweet": "Unsweet",
+        "beverage.melloYelloStrawberryOrange": "Mello Yello Strawberry Orange",
+        "productRule.action.neverAllowed": "Never Allowed",
+        "beverage.dasaniLemon": "Dasani Lemon",
+        "brand.minuteMaidLemonadeLight": "Minute Maid Lemonade Light",
+        "beverage.fantaZeroCherry": "Fanta Zero Cherry",
+        "beverage.minuteMaidSparklingPeach": "Minute Maid Sparkling Peach",
+        "beverage.minuteMaidSparklingLemonade": "Minute Maid Sparkling Lemonade",
+        "beverage.seagramsGingerAleOrange": "Seagrams Ginger Ale Orange",
+        "beverage.melloYelloZeroStrawberryOrange": "Mello Yello Zero Strawberry Orange",
+        "beverage.minuteMaidSparklingMixedBerry": "Minute Maid Sparkling Mixed Berry",
+        "beverage.fuzeTeaUnsweet": "Fuze Tea Unsweet",
+        "beverage.promoFantaOrangeZeroVampireMix": "Promo - Fanta Orange Zero Vampire Mix",
+        "beverage.hiCOrange": "Hi-C Orange",
+        "beverage.poweradeCherry": "Powerade Cherry",
+        "beverage.dietCokeLime": "Diet Coke Lime",
+        "beverage.pibbXtraCherry": "Pibb Xtra Cherry",
+        "beverage.melloYelloZeroPeach": "Mello Yello Zero Peach",
+        "beverage.dietCokeCaffeineFree": "Diet Coke Caffeine Free",
+        "beverage.melloYello": "Mello Yello",
+        "beverage.drPepper": "Dr Pepper",
+        "beverage.minuteMaidLemonadeRaspberry": "Minute Maid Lemonade Raspberry",
+        "beverage.promoFantaStrbryZeroWerewolfMix": "Promo - Fanta Strbry Zero Werewolf Mix",
+        "beverage.fantaZeroStrawberry": "Fanta Zero Strawberry",
+        "flavor.cherry": "Cherry",
+        "beverage.fuzeTeaSweet": "Fuze Tea Sweet",
+        "nationalPromoCustomTitle.pickYour.text": "Pick Your",
+        "beverage.fuzeTeaDietPeach": "Fuze Tea Diet Peach",
+        "brand.drPepper": "Dr Pepper",
+        "beverage.dasaniOrange": "Dasani Orange",
+        "beverage.cocaColaCherry": "Coca-Cola Cherry",
+        "beverage.spriteZero": "Sprite Zero",
+        "nationalPromoCustomTitle.promo.text": "Promo",
+        "ingredient.1049088": "Fanta",
+        "beverage.cokeZeroCherryVanilla": "Coke Zero Cherry Vanilla",
+        "nutritionText.10025NaturalFlavors.text": "100% natural flavors.",
+        "beverage.fuzeTeaRaspberryPeach": "Fuze Tea Raspberry Peach",
+        "flavor.sweet": "Sweet",
+        "beverage.seagramsGingerAleRaspberry": "Seagrams Ginger Ale Raspberry",
+        "brand.hiC": "Hi-C",
+        "beverage.melloYelloZeroRaspberryPeach": "Mello Yello Zero Raspberry Peach",
+        "beverage.vitaminwaterRazzyB": "Vitaminwater Razzy B",
+        "flavor.peach": "Peach",
+        "beverage.fantaZeroFruitPunch": "Fanta Zero Fruit Punch",
+        "beverage.seagramsGingerAleDiet": "Seagrams Ginger Ale Diet",
+        "brand.minuteMaidDrinksLight": "Minute Maid Drinks Light",
+        "beverage.minuteMaidDrinksLightFruitPunch": "Minute Maid Drinks Light Fruit Punch",
+        "beverage.spriteZeroOrange": "Sprite Zero Orange",
+        "beverage.hiCStrawberry": "Hi-C Strawberry",
+        "beverage.cokeZeroLemon": "Coke Zero Lemon",
+        "ingredient.1049065": "Dr Pepper B",
+        "beverage.drPepperDietCherry": "Dr Pepper Diet Cherry",
+        "ingredient.1049064": "Dr Pepper",
+        "beverage.vitaminwaterMotivate": "Vitaminwater Motivate",
+        "brand.barqsCremeSodaDiet": "Barqs Creme Soda Diet",
+        "beverage.poweradeZeroLemon": "Powerade Zero Lemon",
+        "beverage.dietCokeCherryVanilla": "Diet Coke Cherry Vanilla",
+        "beverage.poweradeZeroStrawberry": "Powerade Zero Strawberry",
+        "beverage.fantaPeach": "Fanta Peach",
+        "flavor.lemon": "Lemon",
+        "inactivity.areYouStillThere3F.question": "are you still there?",
+        "beverage.promoFantaGrapeZeroWitchMix": "Promo - Fanta Grape Zero Witch Mix",
+        "beverage.fantaZeroRaspberry": "Fanta Zero Raspberry",
+        "beverage.fantaZeroPeach": "Fanta Zero Peach",
+        "beverage.cokeZeroRaspberry": "Coke Zero Raspberry",
+        "ingredient.1049281": "Powerade B",
+        "beverage.spriteZeroGrape": "Sprite Zero Grape",
+        "ingredient.1049280": "Powerade",
+        "beverage.fantaZeroLime": "Fanta Zero Lime",
+        "brand.seagramsGingerAleDiet": "Seagrams Ginger Ale Diet",
+        "flavor.mixedBerry": "Mixed Berry",
+        "beverage.seagramsGingerAleLime": "Seagrams Ginger Ale Lime",
+        "contentGroup.caffeineFree.title": "Caffeine Free",
+        "beverage.minuteMaidLemonade": "Minute Maid Lemonade",
+        "beverage.cocaColaLemon": "Coca-Cola Lemon",
+        "beverage.seagramsGingerAleDietOrange": "Seagrams Ginger Ale Diet Orange",
+        "brand.powerade": "Powerade",
+        "ingredient.1049153": "MM Lemonade B",
+        "beverage.promoSummerMMSparklingTropicalOas": "Promo - Summer MM Sparkling Tropical Oas",
+        "ingredient.1049152": "MM Lemonade",
+        "beverage.drPepperStrawberry": "Dr Pepper Strawberry",
+        "flavor.limeade": "Limeade",
+        "beverage.poweradeGrape": "Powerade Grape",
+        "ingredient.1049029": "Pibb B",
+        "ingredient.1049028": "Pibb",
+        "beverage.spriteStrawberry": "Sprite Strawberry",
+        "brand.sprite": "Sprite",
+        "beverage.poweradeZeroLime": "Powerade Zero Lime",
+        "brand.drPepperDiet": "Dr Pepper Diet",
+        "beverage.minuteMaidDrinksOrange": "Minute Maid Drinks Orange",
+        "beverage.fantaGrape": "Fanta Grape",
+        "beverage.sprite": "Sprite",
+        "beverage.promoFantaOrangeVampireMix": "Promo - Fanta Orange Vampire Mix",
+        "beverage.fHSubsCherryLimeadeSparkling": "FH Subs - Cherry Limeade Sparkling",
+        "beverage.hiCGrape": "Hi-C Grape",
+        "brand.cokeZero": "Coke Zero",
+        "beverage.minuteMaidLemonadeLightLemonLime": "Minute Maid Lemonade Light Lemon Lime",
+        "beverage.melloYelloRaspberryPeach": "Mello Yello Raspberry Peach",
+        "beverage.promoFantaGrapeWitchMix": "Promo - Fanta Grape Witch Mix",
+        "beverage.seagramsGingerAleVanilla": "Seagrams Ginger Ale Vanilla",
+        "beverage.minuteMaidSparklingLimeade": "Minute Maid Sparkling Limeade",
+        "beverage.dietCokeCaffeineFreeCherryVanilla": "Diet Coke Caffeine Free Cherry Vanilla",
+        "beverage.melloYelloZero": "Mello Yello Zero",
+        "beverage.fuzeTeaDietRaspberry": "Fuze Tea Diet Raspberry",
+        "ingredient.1051240": "Ingr Solution AA",
+        "beverage.minuteMaidLemonadePink": "Minute Maid Lemonade Pink",
+        "ingredient.1051244": "Sprite Part 2",
+        "productRule.action.flushRequired": "Flush Required",
+        "textEmptyText.3ANoMixesCreated.emptyText": ": no mixes created",
+        "ingredient.1049488": "Fuze Tea C2",
+        "beverage.dietCokeCaffeineFreeOrange": "Diet Coke Caffeine Free Orange",
+        "brand.dasaniSparkling": "Dasani Sparkling",
+        "productRule.action.notAllowed": "Not Allowed",
+        "beverage.fantaStrawberry": "Fanta Strawberry",
+        "nutritionText.naturalFlavors2C025Juice0A.text": "Natural flavors, 0% juice.\n",
+        "beverage.vitaminwaterPinkSqueezed": "Vitaminwater Pink Squeezed",
+        "unavailableText.unavailable.text": "unavailable",
+        "flavor.strawberry": "Strawberry",
+        "brand.melloYelloZero": "Mello Yello Zero",
+        "promotion.fantaRegularHalloweenPromo9100.name": "Fanta Regular Halloween Promo 9100",
+        "beverage.cokeZeroOrange": "Coke Zero Orange",
+        "beverage.barqsCremeSodaDietOrange": "Barqs Creme Soda Diet Orange",
+        "ingredient.1051020": "Pibb Part 1",
+        "ingredient.1051024": "Pibb Part 2",
+        "beverage.cokeZero": "Coke Zero",
+        "beverage.dasaniSparklingWater": "Dasani Sparkling Water",
+        "beverage.cokeZeroLime": "Coke Zero Lime",
+        "beverage.minuteMaidDrinksLightPeach": "Minute Maid Drinks Light Peach",
+        "beverage.minuteMaidLemonadeStrawberry": "Minute Maid Lemonade Strawberry",
+        "beverage.fuzeTeaDietLemon": "Fuze Tea Diet Lemon",
+        "ingredient.1049344": "Dasani",
+        "beverage.pibbZeroCherry": "Pibb Zero Cherry",
+        "beverage.spriteVanilla": "Sprite Vanilla",
+        "nutritionText.naturalFlavors2C025Juice.text": "Natural flavors, 0% juice.",
+        "beverage.vitaminwaterCaptivate": "Vitaminwater Captivate",
+        "beverage.pibbZeroStrawberry": "Pibb Zero Strawberry",
+        "beverage.poweradeLime": "Powerade Lime",
+        "beverage.pibbZeroCherryVanilla": "Pibb Zero Cherry Vanilla",
+        "ingredient.1049217": "Hi-C B",
+        "ingredient.1049216": "Hi-C",
+        "beverage.dietCokeCaffeineFreeLemon": "Diet Coke Caffeine Free Lemon",
+        "promotion.cherryLimeadePromotion.name": "Cherry Limeade Promotion",
+        "beverage.minuteMaidDrinksLightOrange": "Minute Maid Drinks Light Orange",
+        "ingredient.1051040": "HiC",
+        "ingredient.1051044": "Powerade.",
+        "beverage.minuteMaidSparklingCherryLime": "Minute Maid Sparkling Cherry Lime",
+        "productRule.action.oK": "OK",
+        "beverage.melloYelloPeach": "Mello Yello Peach",
+        "beverage.seagramsGingerAleDietLime": "Seagrams Ginger Ale Diet Lime",
+        "brand.barqs": "Barqs",
+        "beverage.minuteMaidDrinksLightLime": "Minute Maid Drinks Light Lime",
+        "flavor.tropicalCitrus": "Tropical Citrus",
+        "beverage.minuteMaidDrinksLightCherryLime": "Minute Maid Drinks Light Cherry Lime",
+        "promotion.fantaZeroHalloweenPromo9100.name": "Fanta Zero Halloween Promo 9100",
+        "cePersonalFavState.whatWouldYouLikeToDrink3F.text": "what would you like to drink?",
+        "ingredient.1048596": "Ice",
+        "beverage.dasaniSparklingLemonLime": "Dasani Sparkling Lemon Lime",
+        "flavor.lemonade": "Lemonade",
+        "beverage.fHSubsCherryLimeade": "FH Subs - Cherry Limeade",
+        "productRule.action.flush": "Flush",
+        "brand.poweradeZero": "Powerade Zero",
+        "beverage.minuteMaidLemonadeLightRaspberry": "Minute Maid Lemonade Light Raspberry",
+        "beverage.barqsCremeSodaVanilla": "Barqs Creme Soda Vanilla",
+        "beverage.dietCokeCherry": "Diet Coke Cherry",
+        "beverage.poweradeRaspberry": "Powerade Raspberry",
+        "ingredient.1048588": "NNS",
+        "ingredient.1048584": "HFCS",
+        "productRule.action.prime": "Prime",
+        "flavor.withLemonade": "With Lemonade",
+        "brand.barqsCremeSoda": "Barqs Creme Soda",
+        "beverage.minuteMaidDrinksMixedBerry": "Minute Maid Drinks Mixed Berry",
+        "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text": "what you eat, drink, and do",
+        "beverage.barqsCremeSodaDietVanilla": "Barqs Creme Soda Diet Vanilla",
+        "nationalPromoCustomTitle.promo.text.ada": "Promo",
+        "brand.barqsDiet": "Barqs Diet",
+        "ingredient.1048580": "Water",
+        "brand.fuzeTea": "Fuze Tea",
+        "beverage.dietCoke": "Diet Coke",
+        "beverage.dietCokeVanilla": "Diet Coke Vanilla",
+        "beverage.minuteMaidLemonadeLight": "Minute Maid Lemonade Light",
+        "beverage.barqsCremeSodaPeach": "Barqs Creme Soda Peach",
+        "informState.chooseYourDrink.text": "choose your drink",
+        "beverage.cocaColaCherryVanilla": "Coca-Cola Cherry Vanilla",
+        "contentGroup.allDrinks.title": "All Drinks",
+        "beverage.drPepperDietCherryVanilla": "Dr Pepper Diet Cherry Vanilla",
+        "beverage.spriteZeroCherry": "Sprite Zero Cherry",
+        "ingredient.1049533": "Ginger Ale 2B",
+        "ingredient.1049532": "Ginger Ale 2",
+        "beverage.cocaCola": "Coca-Cola",
+        "beverage.hiCRaspberryLime": "Hi-C Raspberry Lime",
+        "beverage.melloYelloCitrusTwist": "Mello Yello Citrus Twist",
+        "beverage.waterPlainWater": "Water - Plain Water",
+        "flavor.citrusTwist": "Citrus Twist",
+        "beverage.dietCokeOrange": "Diet Coke Orange",
+        "beverage.poweradeZeroRaspberry": "Powerade Zero Raspberry",
+        "beverage.poweradeStrawberry": "Powerade Strawberry",
+        "ingredient.1049525": "Mello Yello B",
+        "beverage.vitaminwaterOrangeadeC": "Vitaminwater Orangeade C",
+        "ingredient.1049524": "Mello Yello",
+        "beverage.poweradeZeroGrape": "Powerade Zero Grape",
+        "brandFamilyText.discoverAnotherMemberOfTheFamily0A.text": "Discover another member of the family.\n",
+        "beverage.dasaniStrawberry": "Dasani Strawberry",
+        "beverage.minuteMaidLemonadeLemonLime": "Minute Maid Lemonade Lemon Lime",
+        "ingredient.1049529": "Ginger Ale B",
+        "brand.cocaCola": "Coca-Cola",
+        "beverage.hiCCherry": "Hi-C Cherry",
+        "ingredient.1049528": "Ginger Ale",
+        "brand.melloYello": "Mello Yello",
+        "brand.minuteMaidLemonade": "Minute Maid Lemonade",
+        "caloricSubTitleText.whatYouEat2CDrink26Do.text": "what you eat, drink & do.",
+        "caloricSubTitleText.whatYouEat2CDrink2C26Do.text": "what you eat, drink, & do.",
+        "beverage.minuteMaidLemonadeOrange": "Minute Maid Lemonade Orange",
+        "inactivity.yes.response": "yes",
+        "beverage.seagramsGingerAleDietCherry": "Seagrams Ginger Ale Diet Cherry",
+        "beverage.poweradeFruitPunch": "Powerade Fruit Punch",
+        "brand.dietCoke": "Diet Coke",
+        "caloricTitleText.balance.text": "Balance ",
+        "beverage.fuzeTeaPeach": "Fuze Tea Peach",
+        "beverage.dietCokeRaspberry": "Diet Coke Raspberry",
+        "beverage.minuteMaidLemonadeLightStrawberry": "Minute Maid Lemonade Light Strawberry",
+        "brand.spriteZero": "Sprite Zero",
+        "beverage.promoFantaStrawberryWerewolfMix": "Promo - Fanta Strawberry Werewolf Mix",
+        "beverage.seagramsGingerAleCherry": "Seagrams Ginger Ale Cherry",
+        "beverage.seagramsGingerAleDietVanilla": "Seagrams Ginger Ale Diet Vanilla",
+        "ingredient.1049501": "Black Cherry B",
+        "ingredient.1049500": "Black Cherry",
+        "ingredient.1048893": "CFDiet Coke B",
+        "ingredient.1048892": "CFDiet Coke A",
+        "beverage.seagramsGingerAleDietRaspberry": "Seagrams Ginger Ale Diet Raspberry",
+        "ingredient.1049508": "BlackCherry Part 2",
+        "beverage.spriteZeroVanilla": "Sprite Zero Vanilla",
+        "ingredient.0": "No Ingredient",
+        "ingredient.1049504": "BlackCherry Part 1",
+        "beverage.fuzeTeaDietLemonade": "Fuze Tea Diet Lemonade",
+        "flavor.lemonLime": "Lemon Lime",
+        "beverage.fantaZeroGrape": "Fanta Zero Grape",
+        "beverage.minuteMaidDrinksCherryLime": "Minute Maid Drinks Cherry Lime",
+        "flavor.strawberryLemonade": "Strawberry  Lemonade",
+        "brand.fuzeTeaDiet": "Fuze Tea Diet",
+        "flavor.orange": "Orange",
+        "beverage.fantaZeroOrange": "Fanta Zero Orange",
+        "beverage.cokeZeroVanilla": "Coke Zero Vanilla",
+        "beverage.poweradeOrange": "Powerade Orange",
+        "brand.vitaminwater": "Vitaminwater",
+        "beverage.minuteMaidDrinksLime": "Minute Maid Drinks Lime",
+        "beverage.drPepperCherryVanilla": "Dr Pepper Cherry Vanilla",
+        "beverage.fuzeTeaDietRaspberryPeach": "Fuze Tea Diet Raspberry Peach",
+        "beverage.minuteMaidSparklingFruitPunch": "Minute Maid Sparkling Fruit Punch",
+        "beverage.cocaColaOrange": "Coca-Cola Orange",
+        "flavor.strawberryOrange": "Strawberry Orange",
+        "flavor.lime": "Lime",
+        "flavor.grape": "Grape",
+        "beverage.dietCokeCaffeineFreeCherry": "Diet Coke Caffeine Free Cherry",
+        "beverage.minuteMaidSparklingTropical": "Minute Maid Sparkling Tropical",
+        "brandFamilyText.discoverAnotherMemberOfTheFamily.text": "Discover another member of the family.",
+        "flavor.tropicalPunch": "Tropical Punch",
+        "promotion.barqsPromo9100.name": "Barqs Promo 9100",
+        "beverage.dietCokeLemon": "Diet Coke Lemon",
+        "beverage.cokeZeroCherry": "Coke Zero Cherry",
+        "beverage.hiCRaspberry": "Hi-C Raspberry",
+        "ingredient.1048744": "Peach",
+        "ingredient.1048740": "Grape",
+        "ingredient.1048861": "CF Diet Coke B",
+        "beverage.fuzeTeaDietStrawberry": "Fuze Tea Diet Strawberry",
+        "ingredient.1048860": "CF Diet Coke",
+        "brand.seagramsGingerAle": "Seagrams Ginger Ale",
+        "beverage.fantaLime": "Fanta Lime",
+        "ingredient.1048748": "Orange",
+        "beverage.minuteMaidDrinksPeach": "Minute Maid Drinks Peach",
+        "beverage.dasaniCherry": "Dasani Cherry",
+        "beverage.drPepperDietStrawberry": "Dr Pepper Diet Strawberry",
+        "flavor.strawberryCitrus": "Strawberry Citrus",
+        "flavor.fruitPunch": "Fruit Punch",
+        "beverage.fantaFruitPunch": "Fanta Fruit Punch",
+        "beverage.minuteMaidDrinksLightMixedBerry": "Minute Maid Drinks Light Mixed Berry"
+      }
+    }
+  },
+  "brands": {
+    "23c948843aef7bc85a07eb00f22b7cac": {
+      "beverages": {
+        "1574019": {
+          "name": "Dasani Sparkling Lemon Lime",
+          "refId": 1574019,
+          "flavorId": "b637e5e82bd624cba25333ff3bd15bd6",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani_sparkling/DasaniSparklingLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1597843": {
+          "name": "Dasani Sparkling Water",
+          "refId": 1597843,
+          "flavorId": "32c406010138ba612cc80b39b850c3df",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani_sparkling/DasaniSparklingLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": true
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "23c948843aef7bc85a07eb00f22b7cac",
+      "name": "Dasani Sparkling",
+      "display": {
+        "languageString": "brand.dasaniSparkling",
+        "logo": "/images/logos/DasaniSparkling-logo.png",
+        "icon": "/images/brands/Dasani_sparkling/DasaniSparkling-available.png",
+        "background": {
+          "image": "/images/backgrounds/sparkling.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "left-cluster",
+        "primaryInCluster": false,
+        "priority": 6
+      }
+    },
+    "6e4599187804ae58f47612f87633471b": {
+      "beverages": {
+        "1769757": {
+          "name": "Vitaminwater Pink Squeezed",
+          "refId": 1769757,
+          "flavorId": "1be489e2fa3201293523976e6930d5b2",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Vitaminwater/VitaminwaterRazzyB-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1816605": {
+          "name": "Vitaminwater Motivate",
+          "refId": 1816605,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Vitaminwater/VitaminwaterRazzyB-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1764537": {
+          "name": "Vitaminwater Lemonade C",
+          "refId": 1764537,
+          "flavorId": "859797dc6934311db196de2f42a3bad9",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Vitaminwater/VitaminwaterRazzyB-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1769758": {
+          "name": "Vitaminwater Tropical C",
+          "refId": 1769758,
+          "flavorId": "4581c5c7818903278d50b190578e3ce4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Vitaminwater/VitaminwaterRazzyB-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1764538": {
+          "name": "Vitaminwater Orangeade C",
+          "refId": 1764538,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Vitaminwater/VitaminwaterRazzyB-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1816603": {
+          "name": "Vitaminwater Captivate",
+          "refId": 1816603,
+          "flavorId": "6ef43708c78cfa73c2297a9ce50fff3a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Vitaminwater/VitaminwaterRazzyB-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1816604": {
+          "name": "Vitaminwater Razzy B",
+          "refId": 1816604,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Vitaminwater/VitaminwaterRazzyB-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavorsNutrientEnhancedWaterBeverage2CSweeteners2CNutrients2CAndLevelsDifferFromBottledVitaminwaterForFullNutritionalInformation2CVisitVitaminwaterCom2Ffreestyle.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "6e4599187804ae58f47612f87633471b",
+      "name": "Vitaminwater",
+      "display": {
+        "languageString": "brand.vitaminwater",
+        "logo": "/images/logos/Vitaminwater-logo.png",
+        "icon": "/images/brands/Vitaminwater/Vitaminwater-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "left-cluster",
+        "primaryInCluster": false,
+        "priority": 4
+      }
+    },
+    "c2047eef001ff627b1f8cf47a0ca019e": {
+      "beverages": {
+        "1574027": {
+          "name": "Hi-C Raspberry Lime",
+          "refId": 1574027,
+          "flavorId": "6a750020098645241540c0c31ac61d82",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475616": {
+          "name": "Hi-C Strawberry",
+          "refId": 1475616,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475674": {
+          "name": "Hi-C Raspberry",
+          "refId": 1475674,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475671": {
+          "name": "Hi-C Orange",
+          "refId": 1475671,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475672": {
+          "name": "Hi-C Cherry",
+          "refId": 1475672,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1475675": {
+          "name": "Hi-C Grape",
+          "refId": 1475675,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1475673": {
+          "name": "Hi-C Fruit Punch",
+          "refId": 1475673,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1574026": {
+          "name": "Hi-C Orange Vanilla",
+          "refId": 1574026,
+          "flavorId": "9a329584a8ab50ad4329f50ec82e3285",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Hic/HiCRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "c2047eef001ff627b1f8cf47a0ca019e",
+      "name": "Hi-C",
+      "display": {
+        "languageString": "brand.hiC",
+        "logo": "/images/logos/HiC-logo.png",
+        "icon": "/images/brands/Hic/HiC-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "left-cluster",
+        "primaryInCluster": false,
+        "priority": 1
+      }
+    },
+    "7ea6d11852735e9af37141661d8c2fd3": {
+      "beverages": {
+        "1491142": {
+          "name": "Powerade Zero Lemon",
+          "refId": 1491142,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1491140": {
+          "name": "Powerade Zero Lime",
+          "refId": 1491140,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1491143": {
+          "name": "Powerade Zero Raspberry",
+          "refId": 1491143,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1491138": {
+          "name": "Powerade Zero Orange",
+          "refId": 1491138,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1491139": {
+          "name": "Powerade Zero Cherry",
+          "refId": 1491139,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1491145": {
+          "name": "Powerade Zero Grape",
+          "refId": 1491145,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1491144": {
+          "name": "Powerade Zero Strawberry",
+          "refId": 1491144,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1491141": {
+          "name": "Powerade Zero Fruit Punch",
+          "refId": 1491141,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade_zero/PoweradeZeroLime-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "7ea6d11852735e9af37141661d8c2fd3",
+      "name": "Powerade Zero",
+      "display": {
+        "languageString": "brand.poweradeZero",
+        "logo": "/images/logos/PoweradeZero-logo.png",
+        "icon": "/images/brands/Powerade_zero/PoweradeZero-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "left-cluster",
+        "primaryInCluster": false,
+        "priority": 3
+      },
+      "relatedBrands": ["89aa798c3d9bcfb1ec6c8febb77b9c96"]
+    },
+    "89aa798c3d9bcfb1ec6c8febb77b9c96": {
+      "beverages": {
+        "1491150": {
+          "name": "Powerade Lemon",
+          "refId": 1491150,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1491148": {
+          "name": "Powerade Lime",
+          "refId": 1491148,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1491151": {
+          "name": "Powerade Raspberry",
+          "refId": 1491151,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1491146": {
+          "name": "Powerade Orange",
+          "refId": 1491146,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1491147": {
+          "name": "Powerade Cherry",
+          "refId": 1491147,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1491153": {
+          "name": "Powerade Grape",
+          "refId": 1491153,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1491152": {
+          "name": "Powerade Strawberry",
+          "refId": 1491152,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1491149": {
+          "name": "Powerade Fruit Punch",
+          "refId": 1491149,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Powerade/PoweradeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "89aa798c3d9bcfb1ec6c8febb77b9c96",
+      "name": "Powerade",
+      "display": {
+        "languageString": "brand.powerade",
+        "logo": "/images/logos/Powerade-logo.png",
+        "icon": "/images/brands/Powerade/Powerade-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "left-cluster",
+        "primaryInCluster": false,
+        "priority": 2
+      },
+      "relatedBrands": ["7ea6d11852735e9af37141661d8c2fd3"]
+    },
+    "fd0d0d6492432840749866546512f4e2": {
+      "beverages": {
+        "1482855": {
+          "name": "Dasani Peach",
+          "refId": 1482855,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475678": {
+          "name": "Dasani Lime",
+          "refId": 1475678,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475676": {
+          "name": "Dasani Orange",
+          "refId": 1475676,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475679": {
+          "name": "Dasani Lemon",
+          "refId": 1475679,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475677": {
+          "name": "Dasani Cherry",
+          "refId": 1475677,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1475680": {
+          "name": "Dasani Raspberry",
+          "refId": 1475680,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1475682": {
+          "name": "Dasani Grape",
+          "refId": 1475682,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1475681": {
+          "name": "Dasani Strawberry",
+          "refId": 1475681,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dasani/DasaniGrape-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "fd0d0d6492432840749866546512f4e2",
+      "name": "Dasani",
+      "display": {
+        "languageString": "brand.dasani",
+        "logo": "/images/logos/Dasani-logo.png",
+        "icon": "/images/brands/Dasani/Dasani-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "left-cluster",
+        "primaryInCluster": false,
+        "priority": 5
+      }
+    },
+    "dbaf2e3e97a088e7868cb4260f74fcb5": {
+      "beverages": {
+        "1748097": {
+          "name": "Minute Maid Lemonade Light Peach",
+          "refId": 1748097,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonadelight/MinuteMaidLemonadeLightLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1748098": {
+          "name": "Minute Maid Lemonade Light Lemon Lime",
+          "refId": 1748098,
+          "flavorId": "b637e5e82bd624cba25333ff3bd15bd6",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonadelight/MinuteMaidLemonadeLightLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475667": {
+          "name": "Minute Maid Lemonade Light Orange",
+          "refId": 1475667,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonadelight/MinuteMaidLemonadeLightLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475666": {
+          "name": "Minute Maid Lemonade Light",
+          "refId": 1475666,
+          "isFlavored": false,
+          "color": "FDED69",
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonadelight/MinuteMaidLemonadeLight-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1748099": {
+          "name": "Minute Maid Lemonade Light Pink",
+          "refId": 1748099,
+          "flavorId": "1be489e2fa3201293523976e6930d5b2",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonadelight/MinuteMaidLemonadeLightLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1475670": {
+          "name": "Minute Maid Lemonade Light Strawberry",
+          "refId": 1475670,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonadelight/MinuteMaidLemonadeLightLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1475669": {
+          "name": "Minute Maid Lemonade Light Raspberry",
+          "refId": 1475669,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonadelight/MinuteMaidLemonadeLightLemonLime-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "dbaf2e3e97a088e7868cb4260f74fcb5",
+      "name": "Minute Maid Lemonade Light",
+      "display": {
+        "languageString": "brand.minuteMaidLemonadeLight",
+        "logo": "/images/logos/MinuteMaidLemonadeLight-logo.png",
+        "icon": "/images/brands/Minute_maid_lemonadelight/MinuteMaidLemonadeLight-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "right-cluster",
+        "primaryInCluster": false,
+        "priority": 2
+      },
+      "relatedBrands": ["cb1e43f4f6ee0434b8a422787fccbcc4"]
+    },
+    "c0f615b05259169d3afb38658299e7cd": {
+      "beverages": {
+        "1816608": {
+          "name": "Minute Maid Drinks Peach",
+          "refId": 1816608,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinks/MinuteMaidDrinksOrange-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1816611": {
+          "name": "Minute Maid Drinks Lime",
+          "refId": 1816611,
+          "flavorId": "a8e07f04d70848211c1d8d026267f0ab",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinks/MinuteMaidDrinksOrange-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1816607": {
+          "name": "Minute Maid Drinks Grape",
+          "refId": 1816607,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinks/MinuteMaidDrinksOrange-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1816609": {
+          "name": "Minute Maid Drinks Mixed Berry",
+          "refId": 1816609,
+          "flavorId": "78f817ad3e1dd278559e58aa9107f669",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinks/MinuteMaidDrinksOrange-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1816606": {
+          "name": "Minute Maid Drinks Fruit Punch",
+          "refId": 1816606,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinks/MinuteMaidDrinksOrange-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1816610": {
+          "name": "Minute Maid Drinks Orange",
+          "refId": 1816610,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinks/MinuteMaidDrinksOrange-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1816612": {
+          "name": "Minute Maid Drinks Cherry Lime",
+          "refId": 1816612,
+          "flavorId": "2892089be6fad8fc4462f947921b9326",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinks/MinuteMaidDrinksOrange-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "c0f615b05259169d3afb38658299e7cd",
+      "name": "Minute Maid Drinks",
+      "display": {
+        "languageString": "brand.minuteMaidDrinks",
+        "logo": "/images/logos/MinuteMaidDrinks-logo.png",
+        "icon": "/images/brands/Minute_maid_drinks/MinuteMaidDrinks-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "right-cluster",
+        "primaryInCluster": false,
+        "priority": 3
+      },
+      "relatedBrands": ["7de1c65fdbcc25782a117be60b62f67f"]
+    },
+    "cb1e43f4f6ee0434b8a422787fccbcc4": {
+      "beverages": {
+        "1748094": {
+          "name": "Minute Maid Lemonade Peach",
+          "refId": 1748094,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonade/MinuteMaidLemonadeRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1748095": {
+          "name": "Minute Maid Lemonade Lemon Lime",
+          "refId": 1748095,
+          "flavorId": "b637e5e82bd624cba25333ff3bd15bd6",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonade/MinuteMaidLemonadeRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475663": {
+          "name": "Minute Maid Lemonade Orange",
+          "refId": 1475663,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonade/MinuteMaidLemonadeRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475662": {
+          "name": "Minute Maid Lemonade",
+          "refId": 1475662,
+          "isFlavored": false,
+          "color": "FFDF0F",
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonade/MinuteMaidLemonade-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1748096": {
+          "name": "Minute Maid Lemonade Pink",
+          "refId": 1748096,
+          "flavorId": "1be489e2fa3201293523976e6930d5b2",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonade/MinuteMaidLemonadeRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1475618": {
+          "name": "Minute Maid Lemonade Raspberry",
+          "refId": 1475618,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonade/MinuteMaidLemonadeRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1475665": {
+          "name": "Minute Maid Lemonade Strawberry",
+          "refId": 1475665,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_lemonade/MinuteMaidLemonadeRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "cb1e43f4f6ee0434b8a422787fccbcc4",
+      "name": "Minute Maid Lemonade",
+      "display": {
+        "languageString": "brand.minuteMaidLemonade",
+        "logo": "/images/logos/MinuteMaidLemonade-logo.png",
+        "icon": "/images/brands/Minute_maid_lemonade/MinuteMaidLemonade-available.png",
+        "background": {
+          "image": "/images/backgrounds/still.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "right-cluster",
+        "primaryInCluster": false,
+        "priority": 1
+      },
+      "relatedBrands": ["dbaf2e3e97a088e7868cb4260f74fcb5"]
+    },
+    "b3a13619dfbb01ec964b3313a09926c5": {
+      "beverages": {
+        "1866622": {
+          "name": "Minute Maid Sparkling Peach",
+          "refId": 1866622,
+          "flavorId": "5aabf443d8da1fc914c6acc26eae2768",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1866621": {
+          "name": "Minute Maid Sparkling Limeade",
+          "refId": 1866621,
+          "flavorId": "a8e07f04d70848211c1d8d026267f0ab",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1866617": {
+          "name": "Minute Maid Sparkling Mixed Berry",
+          "refId": 1866617,
+          "flavorId": "78f817ad3e1dd278559e58aa9107f669",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1866615": {
+          "name": "Minute Maid Sparkling Lemonade",
+          "refId": 1866615,
+          "flavorId": "859797dc6934311db196de2f42a3bad9",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1866623": {
+          "name": "Minute Maid Sparkling Tropical",
+          "refId": 1866623,
+          "flavorId": "793fe112f3302d9c0355c2a52917142d",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1866619": {
+          "name": "Minute Maid Sparkling Strawberry",
+          "refId": 1866619,
+          "flavorId": "b5e32fc555a52483372c6e08ed4012ea",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1866620": {
+          "name": "Minute Maid Sparkling Cherry Lime",
+          "refId": 1866620,
+          "flavorId": "2892089be6fad8fc4462f947921b9326",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1866618": {
+          "name": "Minute Maid Sparkling Fruit Punch",
+          "refId": 1866618,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/MinuteMaidDrinkSparkling/MinuteMaidSparklingPeach-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "b3a13619dfbb01ec964b3313a09926c5",
+      "name": "Minute Maid Sparkling",
+      "display": {
+        "languageString": "brand.minuteMaidSparkling",
+        "logo": "/images/logos/MinuteMaidSparkling-logo.png",
+        "icon": "/images/brands/MinuteMaidDrinkSparkling/MinuteMaidSparkling-available.png",
+        "background": {
+          "image": "/images/backgrounds/sparkling.png",
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "right-cluster",
+        "primaryInCluster": false,
+        "priority": 5
+      }
+    },
+    "7de1c65fdbcc25782a117be60b62f67f": {
+      "beverages": {
+        "1816616": {
+          "name": "Minute Maid Drinks Light Peach",
+          "refId": 1816616,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinkslight/MinuteMaidDrinksLightGrape-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1816619": {
+          "name": "Minute Maid Drinks Light Lime",
+          "refId": 1816619,
+          "flavorId": "a8e07f04d70848211c1d8d026267f0ab",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinkslight/MinuteMaidDrinksLightGrape-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1816615": {
+          "name": "Minute Maid Drinks Light Grape",
+          "refId": 1816615,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinkslight/MinuteMaidDrinksLightGrape-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1816617": {
+          "name": "Minute Maid Drinks Light Mixed Berry",
+          "refId": 1816617,
+          "flavorId": "78f817ad3e1dd278559e58aa9107f669",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinkslight/MinuteMaidDrinksLightGrape-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1816614": {
+          "name": "Minute Maid Drinks Light Fruit Punch",
+          "refId": 1816614,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinkslight/MinuteMaidDrinksLightGrape-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1816618": {
+          "name": "Minute Maid Drinks Light Orange",
+          "refId": 1816618,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinkslight/MinuteMaidDrinksLightGrape-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1816620": {
+          "name": "Minute Maid Drinks Light Cherry Lime",
+          "refId": 1816620,
+          "flavorId": "2892089be6fad8fc4462f947921b9326",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Minute_maid_drinkslight/MinuteMaidDrinksLightGrape-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "7de1c65fdbcc25782a117be60b62f67f",
+      "name": "Minute Maid Drinks Light",
+      "display": {
+        "languageString": "brand.minuteMaidDrinksLight",
+        "logo": "/images/logos/MinuteMaidDrinksLight-logo.png",
+        "icon": "/images/brands/Minute_maid_drinkslight/MinuteMaidDrinksLight-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "right-cluster",
+        "primaryInCluster": false,
+        "priority": 4
+      },
+      "relatedBrands": ["c0f615b05259169d3afb38658299e7cd"]
+    },
+    "78291ebf6115b0b75be7a094c2b30aa6": {
+      "beverages": {
+        "1689207": {
+          "name": "Fuze Tea Raspberry Peach",
+          "refId": 1689207,
+          "flavorId": "7aef19485090fc2eaf905f248d7e6dc8",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea/FuzeTeaLemonade-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1689204": {
+          "name": "Fuze Tea Raspberry",
+          "refId": 1689204,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea/FuzeTeaLemonade-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1689202": {
+          "name": "Fuze Tea Sweet",
+          "refId": 1689202,
+          "flavorId": "4eb8fa8f84e93e039a341d854e5c517c",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea/FuzeTeaLemonade-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": true
+        },
+        "1618417": {
+          "name": "Fuze Tea Lemon",
+          "refId": 1618417,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea/FuzeTeaLemonade-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        },
+        "1689205": {
+          "name": "Fuze Tea Peach",
+          "refId": 1689205,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea/FuzeTeaLemonade-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1689206": {
+          "name": "Fuze Tea Strawberry",
+          "refId": 1689206,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea/FuzeTeaLemonade-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1960664": {
+          "name": "Fuze Tea Lemonade",
+          "refId": 1960664,
+          "flavorId": "19f1325cbe6affd0d1057d4e451afbc1",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea/FuzeTeaLemonade-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "78291ebf6115b0b75be7a094c2b30aa6",
+      "name": "Fuze Tea",
+      "display": {
+        "languageString": "brand.fuzeTea",
+        "logo": "/images/logos/FuzeTea-logo.png",
+        "icon": "/images/brands/Fuze_tea/FuzeTea-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "right-cluster",
+        "primaryInCluster": false,
+        "priority": 6
+      },
+      "relatedBrands": ["019ae7a8c28c6252b4dc52e44314833e"]
+    },
+    "6e98e61625a381410370fb4643eaa165": {
+      "beverages": {
+        "1475654": {
+          "name": "Fanta Peach",
+          "refId": 1475654,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475649": {
+          "name": "Fanta Lime",
+          "refId": 1475649,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475651": {
+          "name": "Fanta Raspberry",
+          "refId": 1475651,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475650": {
+          "name": "Fanta Orange",
+          "refId": 1475650,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475647": {
+          "name": "Fanta Cherry",
+          "refId": 1475647,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1475652": {
+          "name": "Fanta Strawberry",
+          "refId": 1475652,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1475648": {
+          "name": "Fanta Fruit Punch",
+          "refId": 1475648,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1475653": {
+          "name": "Fanta Grape",
+          "refId": 1475653,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta/FantaOrange-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice0A.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "6e98e61625a381410370fb4643eaa165",
+      "name": "Fanta",
+      "display": {
+        "languageString": "brand.fanta",
+        "logo": "/images/logos/Fanta-logo.png",
+        "icon": "/images/brands/Fanta/Fanta-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": false,
+        "priority": 5
+      },
+      "relatedBrands": ["993d61e4f0657fca6ad835e35125d36e"]
+    },
+    "5be5b677b6059c581f6b73c5ef56e8c1": {
+      "beverages": {
+        "1475640": {
+          "name": "Sprite Zero Grape",
+          "refId": 1475640,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite_zero/SpriteZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1565600": {
+          "name": "Sprite Zero Orange",
+          "refId": 1565600,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite_zero/SpriteZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1565601": {
+          "name": "Sprite Zero Vanilla",
+          "refId": 1565601,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite_zero/SpriteZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475638": {
+          "name": "Sprite Zero",
+          "refId": 1475638,
+          "isFlavored": false,
+          "color": "03953C",
+          "display": {
+            "icon": "/images/brands/Sprite_zero/SpriteZero-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475639": {
+          "name": "Sprite Zero Cherry",
+          "refId": 1475639,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite_zero/SpriteZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1475642": {
+          "name": "Sprite Zero Strawberry",
+          "refId": 1475642,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite_zero/SpriteZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1475641": {
+          "name": "Sprite Zero Peach",
+          "refId": 1475641,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite_zero/SpriteZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1475643": {
+          "name": "Sprite Zero Raspberry",
+          "refId": 1475643,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite_zero/SpriteZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.10025NaturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "5be5b677b6059c581f6b73c5ef56e8c1",
+      "name": "Sprite Zero",
+      "display": {
+        "languageString": "brand.spriteZero",
+        "logo": "/images/logos/SpriteZero-logo.png",
+        "icon": "/images/brands/Sprite_zero/SpriteZero-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": false,
+        "priority": 7
+      },
+      "relatedBrands": ["bdac9b39f3cdf627c3298852bc9f9869"]
+    },
+    "1c727071ca725d214d6783a26f4eb20c": {
+      "beverages": {
+        "1475630": {
+          "name": "Diet Coke Lime",
+          "refId": 1475630,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke/DietCokeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475628": {
+          "name": "Diet Coke Orange",
+          "refId": 1475628,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke/DietCokeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475631": {
+          "name": "Diet Coke Vanilla",
+          "refId": 1475631,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke/DietCokeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475627": {
+          "name": "Diet Coke",
+          "refId": 1475627,
+          "isFlavored": false,
+          "color": "A7B6BF",
+          "display": {
+            "icon": "/images/brands/Diet_coke/DietCoke-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475629": {
+          "name": "Diet Coke Cherry",
+          "refId": 1475629,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke/DietCokeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1574021": {
+          "name": "Diet Coke Cherry Vanilla",
+          "refId": 1574021,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke/DietCokeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1733012": {
+          "name": "Diet Coke Lemon",
+          "refId": 1733012,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke/DietCokeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1475632": {
+          "name": "Diet Coke Raspberry",
+          "refId": 1475632,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke/DietCokeOrange-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrinkAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "1c727071ca725d214d6783a26f4eb20c",
+      "name": "Diet Coke",
+      "display": {
+        "languageString": "brand.dietCoke",
+        "logo": "/images/logos/DietCoke-logo.png",
+        "icon": "/images/brands/Diet_coke/DietCoke-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": false,
+        "priority": 1
+      },
+      "relatedBrands": ["8b4ec21f5ac353aa38efa6c6a3f80ec3", "acdf6b459c21c6e776f3afe8999b8f8a", "be23e5a2c2663d62e33d49eede3257cd"]
+    },
+    "bdac9b39f3cdf627c3298852bc9f9869": {
+      "beverages": {
+        "1482851": {
+          "name": "Sprite Grape",
+          "refId": 1482851,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite/SpriteVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1565598": {
+          "name": "Sprite Orange",
+          "refId": 1565598,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite/SpriteVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1565599": {
+          "name": "Sprite Vanilla",
+          "refId": 1565599,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite/SpriteVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475637": {
+          "name": "Sprite",
+          "refId": 1475637,
+          "isFlavored": false,
+          "color": "03953C",
+          "display": {
+            "icon": "/images/brands/Sprite/Sprite-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1482850": {
+          "name": "Sprite Cherry",
+          "refId": 1482850,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite/SpriteVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1482853": {
+          "name": "Sprite Strawberry",
+          "refId": 1482853,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite/SpriteVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1482852": {
+          "name": "Sprite Peach",
+          "refId": 1482852,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite/SpriteVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1482854": {
+          "name": "Sprite Raspberry",
+          "refId": 1482854,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Sprite/SpriteVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.10025NaturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrinkAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "bdac9b39f3cdf627c3298852bc9f9869",
+      "name": "Sprite",
+      "display": {
+        "languageString": "brand.sprite",
+        "logo": "/images/logos/Sprite-logo.png",
+        "icon": "/images/brands/Sprite/Sprite-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": false,
+        "priority": 6
+      },
+      "relatedBrands": ["5be5b677b6059c581f6b73c5ef56e8c1"]
+    },
+    "be23e5a2c2663d62e33d49eede3257cd": {
+      "beverages": {
+        "1565595": {
+          "name": "Coke Zero Lime",
+          "refId": 1565595,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Coke_zero/CokeZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1565596": {
+          "name": "Coke Zero Orange",
+          "refId": 1565596,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Coke_zero/CokeZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475625": {
+          "name": "Coke Zero Vanilla",
+          "refId": 1475625,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Coke_zero/CokeZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475623": {
+          "name": "Coke Zero",
+          "refId": 1475623,
+          "isFlavored": false,
+          "color": "231F20",
+          "display": {
+            "icon": "/images/brands/Coke_zero/CokeZero-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475624": {
+          "name": "Coke Zero Cherry",
+          "refId": 1475624,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Coke_zero/CokeZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1574025": {
+          "name": "Coke Zero Cherry Vanilla",
+          "refId": 1574025,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Coke_zero/CokeZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1565594": {
+          "name": "Coke Zero Lemon",
+          "refId": 1565594,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Coke_zero/CokeZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1565597": {
+          "name": "Coke Zero Raspberry",
+          "refId": 1565597,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Coke_zero/CokeZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "be23e5a2c2663d62e33d49eede3257cd",
+      "name": "Coke Zero",
+      "display": {
+        "languageString": "brand.cokeZero",
+        "logo": "/images/logos/CokeZero-logo.png",
+        "icon": "/images/brands/Coke_zero/CokeZero-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": false,
+        "priority": 2
+      },
+      "relatedBrands": ["8b4ec21f5ac353aa38efa6c6a3f80ec3", "1c727071ca725d214d6783a26f4eb20c", "acdf6b459c21c6e776f3afe8999b8f8a"]
+    },
+    "993d61e4f0657fca6ad835e35125d36e": {
+      "beverages": {
+        "1475661": {
+          "name": "Fanta Zero Peach",
+          "refId": 1475661,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475657": {
+          "name": "Fanta Zero Lime",
+          "refId": 1475657,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475658": {
+          "name": "Fanta Zero Raspberry",
+          "refId": 1475658,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475615": {
+          "name": "Fanta Zero Orange",
+          "refId": 1475615,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475655": {
+          "name": "Fanta Zero Cherry",
+          "refId": 1475655,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1475659": {
+          "name": "Fanta Zero Strawberry",
+          "refId": 1475659,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1475656": {
+          "name": "Fanta Zero Fruit Punch",
+          "refId": 1475656,
+          "flavorId": "563e2bb3b1012ea26aa9296106c9e74f",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1475660": {
+          "name": "Fanta Zero Grape",
+          "refId": 1475660,
+          "flavorId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fanta_zero/FantaZeroGrape-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "993d61e4f0657fca6ad835e35125d36e",
+      "name": "Fanta Zero",
+      "display": {
+        "languageString": "brand.fantaZero",
+        "logo": "/images/logos/FantaZero-logo.png",
+        "icon": "/images/brands/Fanta_zero/FantaZero-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": false,
+        "priority": 4
+      },
+      "relatedBrands": ["6e98e61625a381410370fb4643eaa165"]
+    },
+    "8b4ec21f5ac353aa38efa6c6a3f80ec3": {
+      "beverages": {
+        "1475635": {
+          "name": "Diet Coke Caffeine Free Lime",
+          "refId": 1475635,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke_caffeinefree/DietCokeCaffeineFreeCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475634": {
+          "name": "Diet Coke Caffeine Free Orange",
+          "refId": 1475634,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke_caffeinefree/DietCokeCaffeineFreeCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475690": {
+          "name": "Diet Coke Caffeine Free Vanilla",
+          "refId": 1475690,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke_caffeinefree/DietCokeCaffeineFreeCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475633": {
+          "name": "Diet Coke Caffeine Free",
+          "refId": 1475633,
+          "isFlavored": false,
+          "color": "CCB890",
+          "display": {
+            "icon": "/images/brands/Diet_coke_caffeinefree/DietCokeCaffeineFree-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475614": {
+          "name": "Diet Coke Caffeine Free Cherry",
+          "refId": 1475614,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke_caffeinefree/DietCokeCaffeineFreeCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1574022": {
+          "name": "Diet Coke Caffeine Free Cherry Vanilla",
+          "refId": 1574022,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke_caffeinefree/DietCokeCaffeineFreeCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1816622": {
+          "name": "Diet Coke Caffeine Free Lemon",
+          "refId": 1816622,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke_caffeinefree/DietCokeCaffeineFreeCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1475636": {
+          "name": "Diet Coke Caffeine Free Raspberry",
+          "refId": 1475636,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Diet_coke_caffeinefree/DietCokeCaffeineFreeCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "8b4ec21f5ac353aa38efa6c6a3f80ec3",
+      "name": "Diet Coke Caffeine Free",
+      "display": {
+        "languageString": "brand.dietCokeCaffeineFree",
+        "logo": "/images/logos/DietCokeCaffeineFree-logo.png",
+        "icon": "/images/brands/Diet_coke_caffeinefree/DietCokeCaffeineFree-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": false,
+        "priority": 3
+      },
+      "relatedBrands": ["acdf6b459c21c6e776f3afe8999b8f8a", "be23e5a2c2663d62e33d49eede3257cd", "1c727071ca725d214d6783a26f4eb20c"]
+    },
+    "f0bc551795e48ce7e6454afbd8f54505": {
+      "beverages": {
+        "1952426": {
+          "name": "Pibb Zero Strawberry",
+          "refId": 1952426,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Pibb_zero/PibbZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475646": {
+          "name": "Pibb Zero",
+          "refId": 1475646,
+          "isFlavored": false,
+          "color": "A7B6BF",
+          "display": {
+            "icon": "/images/brands/Pibb_zero/PibbZero-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": true
+        },
+        "1590108": {
+          "name": "Pibb Zero Cherry",
+          "refId": 1590108,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Pibb_zero/PibbZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1590110": {
+          "name": "Pibb Zero Cherry Vanilla",
+          "refId": 1590110,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Pibb_zero/PibbZeroCherryVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily0A.text",
+        "nutrition": "nutritionText.naturallyAndArtificiallyFlavored.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "f0bc551795e48ce7e6454afbd8f54505",
+      "name": "Pibb Zero",
+      "display": {
+        "languageString": "brand.pibbZero",
+        "logo": "/images/logos/PibbZero-logo.png",
+        "icon": "/images/brands/Pibb_zero/PibbZero-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 6
+      },
+      "relatedBrands": ["ed72f4784ff29a571bd19a322c0a3240"]
+    },
+    "43b9684d5ef248f65a9287f967699467": {
+      "beverages": {
+        "1475691": {
+          "name": "Barqs Diet",
+          "refId": 1475691,
+          "isFlavored": false,
+          "color": "e7e7e7",
+          "display": {
+            "icon": "/images/beverages/Barqs_diet/BarqsDiet-available.png",
+            "waveEnabled": false,
+            "priority": 0
+          },
+          "default": true
+        },
+        "1574023": {
+          "name": "Barqs Diet Vanilla",
+          "refId": 1574023,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Barqs_diet/BarqsDietVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturallyAndArtificiallyFlavored.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "43b9684d5ef248f65a9287f967699467",
+      "name": "Barqs Diet",
+      "display": {
+        "languageString": "brand.barqsDiet",
+        "logo": "/images/logos/BarqsDiet-logo.png",
+        "icon": "/images/brands/Barqs_diet/BarqsDiet-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 4
+      },
+      "relatedBrands": ["19b8fd803c8639ec3b0f31ba365e6386"]
+    },
+    "af20a33502326c1aad3821356843879c": {
+      "beverages": {
+        "1952424": {
+          "name": "Dr Pepper Diet Strawberry",
+          "refId": 1952424,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dr_pepper_diet/DrPepperDietStrawberry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1522598": {
+          "name": "Dr Pepper Diet",
+          "refId": 1522598,
+          "isFlavored": false,
+          "color": "FFFFFF",
+          "display": {
+            "icon": "/images/brands/Dr_pepper_diet/DrPepperDiet-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": true
+        },
+        "1582395": {
+          "name": "Dr Pepper Diet Cherry",
+          "refId": 1582395,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dr_pepper_diet/DrPepperDietStrawberry-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1582397": {
+          "name": "Dr Pepper Diet Cherry Vanilla",
+          "refId": 1582397,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dr_pepper_diet/DrPepperDietStrawberry-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturallyAndArtificiallyFlavored.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "af20a33502326c1aad3821356843879c",
+      "name": "Dr Pepper Diet",
+      "display": {
+        "languageString": "brand.drPepperDiet",
+        "logo": "/images/logos/DrPepperDiet-logo.png",
+        "icon": "/images/brands/Dr_pepper_diet/DrPepperDiet-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 8
+      },
+      "relatedBrands": ["ffbe333060cc9debe6c25814a9e59cc1"]
+    },
+    "5ead45e8930be66a7b901f3e8cb418d8": {
+      "beverages": {
+        "1866597": {
+          "name": "Mello Yello Zero Limeade",
+          "refId": 1866597,
+          "flavorId": "a8e07f04d70848211c1d8d026267f0ab",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello_zero/MelloYelloZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1879728": {
+          "name": "Mello Yello Zero Strawberry Orange",
+          "refId": 1879728,
+          "flavorId": "52111281de51c2198b374b631134f193",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello_zero/MelloYelloZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1616638": {
+          "name": "Mello Yello Zero Orange",
+          "refId": 1616638,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello_zero/MelloYelloZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1616637": {
+          "name": "Mello Yello Zero",
+          "refId": 1616637,
+          "isFlavored": false,
+          "color": "050708",
+          "display": {
+            "icon": "/images/brands/Mello_yello_zero/MelloYelloZero-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1616639": {
+          "name": "Mello Yello Zero Cherry",
+          "refId": 1616639,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello_zero/MelloYelloZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1616644": {
+          "name": "Mello Yello Zero Peach",
+          "refId": 1616644,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello_zero/MelloYelloZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1879726": {
+          "name": "Mello Yello Zero Raspberry Peach",
+          "refId": 1879726,
+          "flavorId": "7aef19485090fc2eaf905f248d7e6dc8",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello_zero/MelloYelloZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1879724": {
+          "name": "Mello Yello Zero Citrus Twist",
+          "refId": 1879724,
+          "flavorId": "c5093c568afbfc371faa4ca98c6e828a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello_zero/MelloYelloZeroOrange-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "5ead45e8930be66a7b901f3e8cb418d8",
+      "name": "Mello Yello Zero",
+      "display": {
+        "languageString": "brand.melloYelloZero",
+        "logo": "/images/logos/MelloYelloZero-logo.png",
+        "icon": "/images/brands/Mello_yello_zero/MelloYelloZero-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 10
+      },
+      "relatedBrands": ["f25d86bd39becc76aacbc7713af3e60d"]
+    },
+    "19b8fd803c8639ec3b0f31ba365e6386": {
+      "beverages": {
+        "1475644": {
+          "name": "Barqs",
+          "refId": 1475644,
+          "isFlavored": false,
+          "color": "9BAAB2",
+          "display": {
+            "icon": "/images/brands/Barqs/Barqs-available.png",
+            "waveEnabled": false,
+            "priority": 0
+          },
+          "default": true
+        },
+        "1574024": {
+          "name": "Barqs Vanilla",
+          "refId": 1574024,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Barqs/BarqsVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturallyAndArtificiallyFlavored.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "19b8fd803c8639ec3b0f31ba365e6386",
+      "name": "Barqs",
+      "display": {
+        "languageString": "brand.barqs",
+        "logo": "/images/logos/Barqs-logo.png",
+        "icon": "/images/brands/Barqs/Barqs-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 3
+      },
+      "relatedBrands": ["43b9684d5ef248f65a9287f967699467"]
+    },
+    "ed72f4784ff29a571bd19a322c0a3240": {
+      "beverages": {
+        "1952425": {
+          "name": "Pibb Xtra Strawberry",
+          "refId": 1952425,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Pibb_xtra/PibbXtraCherry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475645": {
+          "name": "Pibb Xtra",
+          "refId": 1475645,
+          "isFlavored": false,
+          "color": "792021",
+          "display": {
+            "icon": "/images/brands/Pibb_xtra/PibbXtra-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": true
+        },
+        "1590107": {
+          "name": "Pibb Xtra Cherry",
+          "refId": 1590107,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Pibb_xtra/PibbXtraCherry-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1590109": {
+          "name": "Pibb Xtra Cherry Vanilla",
+          "refId": 1590109,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Pibb_xtra/PibbXtraCherry-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturallyAndArtificiallyFlavored.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "ed72f4784ff29a571bd19a322c0a3240",
+      "name": "Pibb Xtra",
+      "display": {
+        "languageString": "brand.pibbXtra",
+        "logo": "/images/logos/PibbXtra-logo.png",
+        "icon": "/images/brands/Pibb_xtra/PibbXtra-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 5
+      },
+      "relatedBrands": ["f0bc551795e48ce7e6454afbd8f54505"]
+    },
+    "626dadaefad99a76f5bf2cdde0193d55": {
+      "beverages": {
+        "1631571": {
+          "name": "Seagrams Ginger Ale Lime",
+          "refId": 1631571,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_ale/SeagramsGingerAleCherry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1631572": {
+          "name": "Seagrams Ginger Ale Orange",
+          "refId": 1631572,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_ale/SeagramsGingerAleCherry-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1631569": {
+          "name": "Seagrams Ginger Ale",
+          "refId": 1631569,
+          "isFlavored": false,
+          "color": "DBCEB8",
+          "display": {
+            "icon": "/images/brands/Seagrams_ginger_ale/SeagramsGingerAle-available.png",
+            "waveEnabled": false,
+            "priority": 2
+          },
+          "default": true
+        },
+        "1631570": {
+          "name": "Seagrams Ginger Ale Cherry",
+          "refId": 1631570,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_ale/SeagramsGingerAleCherry-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        },
+        "1631574": {
+          "name": "Seagrams Ginger Ale Vanilla",
+          "refId": 1631574,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_ale/SeagramsGingerAleCherry-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1631573": {
+          "name": "Seagrams Ginger Ale Raspberry",
+          "refId": 1631573,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_ale/SeagramsGingerAleCherry-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "626dadaefad99a76f5bf2cdde0193d55",
+      "name": "Seagrams Ginger Ale",
+      "display": {
+        "languageString": "brand.seagramsGingerAle",
+        "logo": "/images/logos/SeagramsGingerAle-logo.png",
+        "icon": "/images/brands/Seagrams_ginger_ale/SeagramsGingerAle-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 11
+      },
+      "relatedBrands": ["70afc8b65a527fa70f7c008169cd9041"]
+    },
+    "77a36aac2ea494f396903b5a650ef30b": {
+      "beverages": {
+        "1866599": {
+          "name": "Barqs Creme Soda Strawberry",
+          "refId": 1866599,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSoda/BarqsCremeSodaVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1866600": {
+          "name": "Barqs Creme Soda Vanilla",
+          "refId": 1866600,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSoda/BarqsCremeSodaVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": true
+        },
+        "1866601": {
+          "name": "Barqs Creme Soda Orange",
+          "refId": 1866601,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSoda/BarqsCremeSodaVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1866598": {
+          "name": "Barqs Creme Soda Peach",
+          "refId": 1866598,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSoda/BarqsCremeSodaPeach-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "77a36aac2ea494f396903b5a650ef30b",
+      "name": "Barqs Creme Soda",
+      "display": {
+        "languageString": "brand.barqsCremeSoda",
+        "logo": "/images/logos/BarqsCremeSoda-logo.png",
+        "icon": "/images/brands/BarqsCremeSoda/BarqsCremeSoda-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 1
+      },
+      "relatedBrands": ["41b629ab4e9912f0e755249c8386a794"]
+    },
+    "70afc8b65a527fa70f7c008169cd9041": {
+      "beverages": {
+        "1631577": {
+          "name": "Seagrams Ginger Ale Diet Lime",
+          "refId": 1631577,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_alediet/SeagramsGingerAleDietRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1631578": {
+          "name": "Seagrams Ginger Ale Diet Orange",
+          "refId": 1631578,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_alediet/SeagramsGingerAleDietRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1631575": {
+          "name": "Seagrams Ginger Ale Diet",
+          "refId": 1631575,
+          "isFlavored": false,
+          "color": "d1d3d4",
+          "display": {
+            "icon": "/images/brands/Seagrams_ginger_alediet/SeagramsGingerAleDiet-available.png",
+            "waveEnabled": false,
+            "priority": 2
+          },
+          "default": true
+        },
+        "1631576": {
+          "name": "Seagrams Ginger Ale Diet Cherry",
+          "refId": 1631576,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_alediet/SeagramsGingerAleDietRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        },
+        "1631580": {
+          "name": "Seagrams Ginger Ale Diet Vanilla",
+          "refId": 1631580,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_alediet/SeagramsGingerAleDietRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1631579": {
+          "name": "Seagrams Ginger Ale Diet Raspberry",
+          "refId": 1631579,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Seagrams_ginger_alediet/SeagramsGingerAleDietRaspberry-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "70afc8b65a527fa70f7c008169cd9041",
+      "name": "Seagrams Ginger Ale Diet",
+      "display": {
+        "languageString": "brand.seagramsGingerAleDiet",
+        "logo": "/images/logos/SeagramsGingerAleDiet-logo.png",
+        "icon": "/images/brands/Seagrams_ginger_alediet/SeagramsGingerAleDiet-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 12
+      },
+      "relatedBrands": ["626dadaefad99a76f5bf2cdde0193d55"]
+    },
+    "ffbe333060cc9debe6c25814a9e59cc1": {
+      "beverages": {
+        "1952423": {
+          "name": "Dr Pepper Strawberry",
+          "refId": 1952423,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dr_pepper/DrPepperCherry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1522597": {
+          "name": "Dr Pepper",
+          "refId": 1522597,
+          "isFlavored": false,
+          "color": "90192b",
+          "display": {
+            "icon": "/images/brands/Dr_pepper/DrPepper-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": true
+        },
+        "1582394": {
+          "name": "Dr Pepper Cherry",
+          "refId": 1582394,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dr_pepper/DrPepperCherry-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1582396": {
+          "name": "Dr Pepper Cherry Vanilla",
+          "refId": 1582396,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Dr_pepper/DrPepperCherry-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturallyAndArtificiallyFlavored.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "ffbe333060cc9debe6c25814a9e59cc1",
+      "name": "Dr Pepper",
+      "display": {
+        "languageString": "brand.drPepper",
+        "logo": "/images/logos/DrPepper-logo.png",
+        "icon": "/images/brands/Dr_pepper/DrPepper-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 7
+      },
+      "relatedBrands": ["af20a33502326c1aad3821356843879c"]
+    },
+    "41b629ab4e9912f0e755249c8386a794": {
+      "beverages": {
+        "1866603": {
+          "name": "Barqs Creme Soda Diet Strawberry",
+          "refId": 1866603,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSodaDiet/BarqsCremeSodaDietOrange-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1866604": {
+          "name": "Barqs Creme Soda Diet Vanilla",
+          "refId": 1866604,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSodaDiet/BarqsCremeSodaDietOrange-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": true
+        },
+        "1866605": {
+          "name": "Barqs Creme Soda Diet Orange",
+          "refId": 1866605,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSodaDiet/BarqsCremeSodaDietOrange-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1866602": {
+          "name": "Barqs Creme Soda Diet Peach",
+          "refId": 1866602,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSodaDiet/BarqsCremeSodaDietOrange-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "41b629ab4e9912f0e755249c8386a794",
+      "name": "Barqs Creme Soda Diet",
+      "display": {
+        "languageString": "brand.barqsCremeSodaDiet",
+        "logo": "/images/logos/BarqsCremeSodaDiet-logo.png",
+        "icon": "/images/brands/BarqsCremeSodaDiet/BarqsCremeSodaDiet-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background43-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background44-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background45-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 2
+      },
+      "relatedBrands": ["77a36aac2ea494f396903b5a650ef30b"]
+    },
+    "f25d86bd39becc76aacbc7713af3e60d": {
+      "beverages": {
+        "1866596": {
+          "name": "Mello Yello Limeade",
+          "refId": 1866596,
+          "flavorId": "a8e07f04d70848211c1d8d026267f0ab",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello/MelloYelloCherry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1879727": {
+          "name": "Mello Yello Strawberry Orange",
+          "refId": 1879727,
+          "flavorId": "52111281de51c2198b374b631134f193",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello/MelloYelloCherry-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1596915": {
+          "name": "Mello Yello Orange",
+          "refId": 1596915,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello/MelloYelloCherry-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1596914": {
+          "name": "Mello Yello",
+          "refId": 1596914,
+          "isFlavored": false,
+          "color": "050708",
+          "display": {
+            "icon": "/images/brands/Mello_yello/MelloYello-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1596916": {
+          "name": "Mello Yello Cherry",
+          "refId": 1596916,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello/MelloYelloCherry-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1596918": {
+          "name": "Mello Yello Peach",
+          "refId": 1596918,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello/MelloYelloCherry-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1879725": {
+          "name": "Mello Yello Raspberry Peach",
+          "refId": 1879725,
+          "flavorId": "7aef19485090fc2eaf905f248d7e6dc8",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello/MelloYelloCherry-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1879723": {
+          "name": "Mello Yello Citrus Twist",
+          "refId": 1879723,
+          "flavorId": "c5093c568afbfc371faa4ca98c6e828a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Mello_yello/MelloYelloCherry-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "f25d86bd39becc76aacbc7713af3e60d",
+      "name": "Mello Yello",
+      "display": {
+        "languageString": "brand.melloYello",
+        "logo": "/images/logos/MelloYello-logo.png",
+        "icon": "/images/brands/Mello_yello/MelloYello-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background1-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background2-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background3-video.mp4",
+            "hideColorOverlay": false
+          }
+        },
+        "cluster": "top-cluster",
+        "primaryInCluster": false,
+        "priority": 9
+      },
+      "relatedBrands": ["5ead45e8930be66a7b901f3e8cb418d8"]
+    },
+    "4a0df0664856b40c7dc68481ee49a634": {
+      "beverages": {
+        "1477221": {
+          "name": "Water - Plain Water",
+          "refId": 1477221,
+          "isFlavored": false,
+          "color": "021ACC",
+          "display": {
+            "icon": "/images/brands/Water_unbranded/WaterUnbranded-available.png",
+            "waveEnabled": false,
+            "priority": 0
+          },
+          "default": true
+        }
+      },
+      "content": {},
+      "refId": "4a0df0664856b40c7dc68481ee49a634",
+      "name": "Water Unbranded",
+      "display": {
+        "languageString": "brand.waterUnbranded",
+        "icon": "/images/brands/Water_unbranded/WaterUnbranded-available.png",
+        "background": {
+          "image": "/images/backgrounds/Background32.png",
+          "video": {}
+        },
+        "primaryInCluster": false,
+        "priority": 0
+      }
+    },
+    "019ae7a8c28c6252b4dc52e44314833e": {
+      "beverages": {
+        "1689212": {
+          "name": "Fuze Tea Diet Raspberry Peach",
+          "refId": 1689212,
+          "flavorId": "7aef19485090fc2eaf905f248d7e6dc8",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaDietPeach-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1689208": {
+          "name": "Fuze Tea Diet Raspberry",
+          "refId": 1689208,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaDietPeach-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1689210": {
+          "name": "Fuze Tea Diet Peach",
+          "refId": 1689210,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaDietPeach-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1689209": {
+          "name": "Fuze Tea Diet Lemon",
+          "refId": 1689209,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaDietPeach-available.png",
+            "waveEnabled": true,
+            "priority": 3
+          },
+          "default": false
+        },
+        "1691722": {
+          "name": "Fuze Tea Diet",
+          "refId": 1691722,
+          "flavorId": "4eb8fa8f84e93e039a341d854e5c517c",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaDietPeach-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": true
+        },
+        "1689203": {
+          "name": "Fuze Tea Unsweet",
+          "refId": 1689203,
+          "flavorId": "34c5479ab07d9ca1a752b74b0c0a8bd7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaUnsweet-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1689211": {
+          "name": "Fuze Tea Diet Strawberry",
+          "refId": 1689211,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaDietPeach-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1960665": {
+          "name": "Fuze Tea Diet Lemonade",
+          "refId": 1960665,
+          "flavorId": "19f1325cbe6affd0d1057d4e451afbc1",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Fuze_tea_diet/FuzeTeaDietPeach-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "019ae7a8c28c6252b4dc52e44314833e",
+      "name": "Fuze Tea Diet",
+      "display": {
+        "languageString": "brand.fuzeTeaDiet",
+        "logo": "/images/logos/FuzeTeaDiet-logo.png",
+        "icon": "/images/brands/Fuze_tea_diet/FuzeTeaDiet-available.png",
+        "background": {
+          "video": {
+            "pourVideo": "/videos/backgrounds/Background4-video.mp4",
+            "spinVideo": "/videos/backgrounds/Background5-video.mp4",
+            "loopVideo": "/videos/backgrounds/Background6-video.mp4",
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "right-cluster",
+        "primaryInCluster": true,
+        "priority": 0
+      },
+      "relatedBrands": ["78291ebf6115b0b75be7a094c2b30aa6"]
+    },
+    "acdf6b459c21c6e776f3afe8999b8f8a": {
+      "beverages": {
+        "1475617": {
+          "name": "Coca-Cola Lime",
+          "refId": 1475617,
+          "flavorId": "5c7ee93e0762753608358095d377fe7e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaColaCherry-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1475619": {
+          "name": "Coca-Cola Orange",
+          "refId": 1475619,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaColaCherry-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1475621": {
+          "name": "Coca-Cola Vanilla",
+          "refId": 1475621,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaColaCherry-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475622": {
+          "name": "Coca-Cola",
+          "refId": 1475622,
+          "isFlavored": false,
+          "color": "F40000",
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaCola-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1475620": {
+          "name": "Coca-Cola Cherry",
+          "refId": 1475620,
+          "flavorId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaColaCherry-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1574020": {
+          "name": "Coca-Cola Cherry Vanilla",
+          "refId": 1574020,
+          "flavorId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaColaCherry-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        },
+        "1624920": {
+          "name": "Coca-Cola Lemon",
+          "refId": 1624920,
+          "flavorId": "2d43c150644831bad2992ef65d8a86a4",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaColaCherry-available.png",
+            "waveEnabled": true,
+            "priority": 6
+          },
+          "default": false
+        },
+        "1475626": {
+          "name": "Coca-Cola Raspberry",
+          "refId": 1475626,
+          "flavorId": "8f3407ad238202ed89ed56e8f1ce4230",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/CocaCola/CocaColaCherry-available.png",
+            "waveEnabled": true,
+            "priority": 7
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "brandFamily": "brandFamilyText.discoverAnotherMemberOfTheFamily.text",
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "refId": "acdf6b459c21c6e776f3afe8999b8f8a",
+      "name": "Coca-Cola",
+      "display": {
+        "languageString": "brand.cocaCola",
+        "logo": "/images/logos/CocaCola-logo.png",
+        "icon": "/images/brands/CocaCola/CocaCola-available.png",
+        "background": {
+          "image": "/images/backgrounds/caramel.png",
+          "video": {
+            "hideColorOverlay": true
+          }
+        },
+        "cluster": "bottom-cluster",
+        "primaryInCluster": true,
+        "priority": 0
+      },
+      "relatedBrands": ["1c727071ca725d214d6783a26f4eb20c", "8b4ec21f5ac353aa38efa6c6a3f80ec3", "be23e5a2c2663d62e33d49eede3257cd"]
+    }
+  },
+  "flavors": {
+    "6ef43708c78cfa73c2297a9ce50fff3a": {
+      "name": "Strawberry Citrus",
+      "refId": "6ef43708c78cfa73c2297a9ce50fff3a",
+      "display": {
+        "languageString": "flavor.strawberryCitrus",
+        "mainColor": "EF4466",
+        "liquidColor": "EF4466"
+      }
+    },
+    "706e6df69f76cbe46182a4ca98ba449b": {
+      "name": "Peach",
+      "refId": "706e6df69f76cbe46182a4ca98ba449b",
+      "display": {
+        "languageString": "flavor.peach",
+        "mainColor": "FF6D46",
+        "liquidColor": "FF6D46"
+      }
+    },
+    "4eb8fa8f84e93e039a341d854e5c517c": {
+      "name": "Sweet",
+      "refId": "4eb8fa8f84e93e039a341d854e5c517c",
+      "display": {
+        "languageString": "flavor.sweet",
+        "mainColor": "4dA6DE",
+        "liquidColor": "4dA6DE"
+      }
+    },
+    "1be489e2fa3201293523976e6930d5b2": {
+      "name": "Pink Lemonade",
+      "refId": "1be489e2fa3201293523976e6930d5b2",
+      "display": {
+        "languageString": "flavor.pinkLemonade",
+        "mainColor": "f48f9e",
+        "liquidColor": "f48f9e"
+      }
+    },
+    "8f3407ad238202ed89ed56e8f1ce4230": {
+      "name": "Raspberry",
+      "refId": "8f3407ad238202ed89ed56e8f1ce4230",
+      "display": {
+        "languageString": "flavor.raspberry",
+        "mainColor": "FF2280",
+        "liquidColor": "FF2280"
+      }
+    },
+    "c872ccd6820f3c4f7b213fe2b28f6a11": {
+      "name": "Cherry Vanilla",
+      "refId": "c872ccd6820f3c4f7b213fe2b28f6a11",
+      "display": {
+        "languageString": "flavor.cherryVanilla",
+        "mainColor": "FF909D",
+        "liquidColor": "FE0B27"
+      }
+    },
+    "5c7ee93e0762753608358095d377fe7e": {
+      "name": "Lime",
+      "refId": "5c7ee93e0762753608358095d377fe7e",
+      "display": {
+        "languageString": "flavor.lime",
+        "mainColor": "67B52C",
+        "liquidColor": "67B52C"
+      }
+    },
+    "0b6d13155c809a6015ed7d3321bec42a": {
+      "name": "Strawberry",
+      "refId": "0b6d13155c809a6015ed7d3321bec42a",
+      "display": {
+        "languageString": "flavor.strawberry",
+        "mainColor": "FF3F65",
+        "liquidColor": "FF3F65"
+      }
+    },
+    "b3e07dbda2374f26c1afaba885eb65c7": {
+      "name": "Orange",
+      "refId": "b3e07dbda2374f26c1afaba885eb65c7",
+      "display": {
+        "languageString": "flavor.orange",
+        "mainColor": "FB5E00",
+        "liquidColor": "FB5E00"
+      }
+    },
+    "a9f40e6081c7b4600d6146fb9b1b1ce0": {
+      "name": "Cherry",
+      "refId": "a9f40e6081c7b4600d6146fb9b1b1ce0",
+      "display": {
+        "languageString": "flavor.cherry",
+        "mainColor": "FF393B",
+        "liquidColor": "FF393B"
+      }
+    },
+    "2d43c150644831bad2992ef65d8a86a4": {
+      "name": "Lemon",
+      "refId": "2d43c150644831bad2992ef65d8a86a4",
+      "display": {
+        "languageString": "flavor.lemon",
+        "mainColor": "EED300",
+        "liquidColor": "949357"
+      }
+    },
+    "7aef19485090fc2eaf905f248d7e6dc8": {
+      "name": "Raspberry Peach",
+      "refId": "7aef19485090fc2eaf905f248d7e6dc8",
+      "display": {
+        "languageString": "flavor.raspberryPeach",
+        "mainColor": "F47070",
+        "liquidColor": "EE2881"
+      }
+    },
+    "793fe112f3302d9c0355c2a52917142d": {
+      "name": "Tropical Citrus",
+      "refId": "793fe112f3302d9c0355c2a52917142d",
+      "display": {
+        "languageString": "flavor.tropicalCitrus",
+        "mainColor": "F16022",
+        "liquidColor": "FF3F65"
+      }
+    },
+    "19f1325cbe6affd0d1057d4e451afbc1": {
+      "name": "With Lemonade",
+      "refId": "19f1325cbe6affd0d1057d4e451afbc1",
+      "display": {
+        "languageString": "flavor.withLemonade",
+        "mainColor": "d4ad2a",
+        "liquidColor": "d4ad2a"
+      }
+    },
+    "17bfa5a5078ed77a68d7fa0be4c04a52": {
+      "name": "Grape",
+      "refId": "17bfa5a5078ed77a68d7fa0be4c04a52",
+      "display": {
+        "languageString": "flavor.grape",
+        "mainColor": "A23BB2",
+        "liquidColor": "A23BB2"
+      }
+    },
+    "1054cf7324f46415dc43af9da72ddf3e": {
+      "name": "Vanilla",
+      "refId": "1054cf7324f46415dc43af9da72ddf3e",
+      "display": {
+        "languageString": "flavor.vanilla",
+        "mainColor": "F6D870",
+        "liquidColor": "958258"
+      }
+    },
+    "563e2bb3b1012ea26aa9296106c9e74f": {
+      "name": "Fruit Punch",
+      "refId": "563e2bb3b1012ea26aa9296106c9e74f",
+      "display": {
+        "languageString": "flavor.fruitPunch",
+        "mainColor": "E51056",
+        "liquidColor": "E51056"
+      }
+    },
+    "78f817ad3e1dd278559e58aa9107f669": {
+      "name": "Mixed Berry",
+      "refId": "78f817ad3e1dd278559e58aa9107f669",
+      "display": {
+        "languageString": "flavor.mixedBerry",
+        "mainColor": "d61a69",
+        "liquidColor": "d61a69"
+      }
+    },
+    "5aabf443d8da1fc914c6acc26eae2768": {
+      "name": "Peach Lemonade",
+      "refId": "5aabf443d8da1fc914c6acc26eae2768",
+      "display": {
+        "languageString": "flavor.peachLemonade",
+        "mainColor": "FF6D46",
+        "liquidColor": "FF6D46"
+      }
+    },
+    "4581c5c7818903278d50b190578e3ce4": {
+      "name": "Tropical Punch",
+      "refId": "4581c5c7818903278d50b190578e3ce4",
+      "display": {
+        "languageString": "flavor.tropicalPunch",
+        "mainColor": "D50046",
+        "liquidColor": "D50046"
+      }
+    },
+    "b637e5e82bd624cba25333ff3bd15bd6": {
+      "name": "Lemon Lime",
+      "refId": "b637e5e82bd624cba25333ff3bd15bd6",
+      "display": {
+        "languageString": "flavor.lemonLime",
+        "mainColor": "62BB46",
+        "liquidColor": "62BB46"
+      }
+    },
+    "a8e07f04d70848211c1d8d026267f0ab": {
+      "name": "Limeade",
+      "refId": "a8e07f04d70848211c1d8d026267f0ab",
+      "display": {
+        "languageString": "flavor.limeade",
+        "mainColor": "67B52C",
+        "liquidColor": "67B52C"
+      }
+    },
+    "c5093c568afbfc371faa4ca98c6e828a": {
+      "name": "Citrus Twist",
+      "refId": "c5093c568afbfc371faa4ca98c6e828a",
+      "display": {
+        "languageString": "flavor.citrusTwist",
+        "mainColor": "C2D505",
+        "liquidColor": "C2D505"
+      }
+    },
+    "52111281de51c2198b374b631134f193": {
+      "name": "Strawberry Orange",
+      "refId": "52111281de51c2198b374b631134f193",
+      "display": {
+        "languageString": "flavor.strawberryOrange",
+        "mainColor": "EF4166",
+        "liquidColor": "EF4166"
+      }
+    },
+    "859797dc6934311db196de2f42a3bad9": {
+      "name": "Lemonade",
+      "refId": "859797dc6934311db196de2f42a3bad9",
+      "display": {
+        "languageString": "flavor.lemonade",
+        "mainColor": "EED300",
+        "liquidColor": "EED300"
+      }
+    },
+    "34c5479ab07d9ca1a752b74b0c0a8bd7": {
+      "name": "Unsweet",
+      "refId": "34c5479ab07d9ca1a752b74b0c0a8bd7",
+      "display": {
+        "languageString": "flavor.unsweet",
+        "mainColor": "6AA04E",
+        "liquidColor": "6AA04E"
+      }
+    },
+    "9a329584a8ab50ad4329f50ec82e3285": {
+      "name": "Orange Vanilla",
+      "refId": "9a329584a8ab50ad4329f50ec82e3285",
+      "display": {
+        "languageString": "flavor.orangeVanilla",
+        "mainColor": "FFC451",
+        "liquidColor": "9D895E"
+      }
+    },
+    "2892089be6fad8fc4462f947921b9326": {
+      "name": "Cherry Limeade",
+      "refId": "2892089be6fad8fc4462f947921b9326",
+      "display": {
+        "languageString": "flavor.cherryLimeade",
+        "mainColor": "FF393B",
+        "liquidColor": "FF393B"
+      }
+    },
+    "6a750020098645241540c0c31ac61d82": {
+      "name": "Raspberry Lime",
+      "refId": "6a750020098645241540c0c31ac61d82",
+      "display": {
+        "languageString": "flavor.raspberryLime",
+        "mainColor": "FF50AF",
+        "liquidColor": "FF50AF"
+      }
+    },
+    "32c406010138ba612cc80b39b850c3df": {
+      "name": "Unflavored",
+      "refId": "32c406010138ba612cc80b39b850c3df",
+      "display": {
+        "languageString": "flavor.unflavored",
+        "mainColor": "69cef6",
+        "liquidColor": "69cef6"
+      }
+    },
+    "b5e32fc555a52483372c6e08ed4012ea": {
+      "name": "Strawberry  Lemonade",
+      "refId": "b5e32fc555a52483372c6e08ed4012ea",
+      "display": {
+        "languageString": "flavor.strawberryLemonade",
+        "mainColor": "F26B49",
+        "liquidColor": "F26B49"
+      }
+    }
+  },
+  "iconGroups": [
+    {
+      "name": "allDrinks",
+      "display": {
+        "languageString": "contentGroup.allDrinks.title"
+      },
+      "brands": [
+        "77a36aac2ea494f396903b5a650ef30b",
+        "41b629ab4e9912f0e755249c8386a794",
+        "19b8fd803c8639ec3b0f31ba365e6386",
+        "43b9684d5ef248f65a9287f967699467",
+        "ed72f4784ff29a571bd19a322c0a3240",
+        "f0bc551795e48ce7e6454afbd8f54505",
+        "ffbe333060cc9debe6c25814a9e59cc1",
+        "af20a33502326c1aad3821356843879c",
+        "f25d86bd39becc76aacbc7713af3e60d",
+        "5ead45e8930be66a7b901f3e8cb418d8",
+        "626dadaefad99a76f5bf2cdde0193d55",
+        "70afc8b65a527fa70f7c008169cd9041",
+        "1c727071ca725d214d6783a26f4eb20c",
+        "be23e5a2c2663d62e33d49eede3257cd",
+        "8b4ec21f5ac353aa38efa6c6a3f80ec3",
+        "993d61e4f0657fca6ad835e35125d36e",
+        "6e98e61625a381410370fb4643eaa165",
+        "bdac9b39f3cdf627c3298852bc9f9869",
+        "5be5b677b6059c581f6b73c5ef56e8c1",
+        "acdf6b459c21c6e776f3afe8999b8f8a",
+        "c2047eef001ff627b1f8cf47a0ca019e",
+        "89aa798c3d9bcfb1ec6c8febb77b9c96",
+        "7ea6d11852735e9af37141661d8c2fd3",
+        "6e4599187804ae58f47612f87633471b",
+        "fd0d0d6492432840749866546512f4e2",
+        "23c948843aef7bc85a07eb00f22b7cac",
+        "cb1e43f4f6ee0434b8a422787fccbcc4",
+        "dbaf2e3e97a088e7868cb4260f74fcb5",
+        "c0f615b05259169d3afb38658299e7cd",
+        "7de1c65fdbcc25782a117be60b62f67f",
+        "b3a13619dfbb01ec964b3313a09926c5",
+        "78291ebf6115b0b75be7a094c2b30aa6",
+        "019ae7a8c28c6252b4dc52e44314833e",
+        "4a0df0664856b40c7dc68481ee49a634"
+      ],
+      "default": true
+    },
+    {
+      "name": "low2FNoCalorie",
+      "display": {
+        "languageString": "contentGroup.low2FNoCalorie.title"
+      },
+      "brands": [
+        "41b629ab4e9912f0e755249c8386a794",
+        "43b9684d5ef248f65a9287f967699467",
+        "5ead45e8930be66a7b901f3e8cb418d8",
+        "f0bc551795e48ce7e6454afbd8f54505",
+        "70afc8b65a527fa70f7c008169cd9041",
+        "af20a33502326c1aad3821356843879c",
+        "5be5b677b6059c581f6b73c5ef56e8c1",
+        "993d61e4f0657fca6ad835e35125d36e",
+        "8b4ec21f5ac353aa38efa6c6a3f80ec3",
+        "be23e5a2c2663d62e33d49eede3257cd",
+        "1c727071ca725d214d6783a26f4eb20c",
+        "7ea6d11852735e9af37141661d8c2fd3",
+        "fd0d0d6492432840749866546512f4e2",
+        "23c948843aef7bc85a07eb00f22b7cac",
+        "dbaf2e3e97a088e7868cb4260f74fcb5",
+        "b3a13619dfbb01ec964b3313a09926c5",
+        "7de1c65fdbcc25782a117be60b62f67f",
+        "019ae7a8c28c6252b4dc52e44314833e",
+        "4a0df0664856b40c7dc68481ee49a634"
+      ],
+      "default": false
+    },
+    {
+      "name": "caffeineFree",
+      "display": {
+        "languageString": "contentGroup.caffeineFree.title"
+      },
+      "brands": [
+        "77a36aac2ea494f396903b5a650ef30b",
+        "41b629ab4e9912f0e755249c8386a794",
+        "19b8fd803c8639ec3b0f31ba365e6386",
+        "43b9684d5ef248f65a9287f967699467",
+        "626dadaefad99a76f5bf2cdde0193d55",
+        "70afc8b65a527fa70f7c008169cd9041",
+        "bdac9b39f3cdf627c3298852bc9f9869",
+        "6e98e61625a381410370fb4643eaa165",
+        "993d61e4f0657fca6ad835e35125d36e",
+        "8b4ec21f5ac353aa38efa6c6a3f80ec3",
+        "5be5b677b6059c581f6b73c5ef56e8c1",
+        "c2047eef001ff627b1f8cf47a0ca019e",
+        "89aa798c3d9bcfb1ec6c8febb77b9c96",
+        "7ea6d11852735e9af37141661d8c2fd3",
+        "6e4599187804ae58f47612f87633471b",
+        "fd0d0d6492432840749866546512f4e2",
+        "23c948843aef7bc85a07eb00f22b7cac",
+        "cb1e43f4f6ee0434b8a422787fccbcc4",
+        "dbaf2e3e97a088e7868cb4260f74fcb5",
+        "c0f615b05259169d3afb38658299e7cd",
+        "7de1c65fdbcc25782a117be60b62f67f",
+        "b3a13619dfbb01ec964b3313a09926c5",
+        "4a0df0664856b40c7dc68481ee49a634"
+      ],
+      "default": false
+    }
+  ],
+  "promotionSelection": {
+    "display": {
+      "titleLanguageString": "nationalPromoCustomTitle.pickYour.text",
+      "subtitleLanguageString": "nationalPromoCustomTitle.promo.text",
+      "background": {
+        "ada": "/images/backgrounds/Background1-ada.png",
+        "default": "/images/backgrounds/Background32.png"
+      }
+    }
+  },
+  "promotions": {
+    "79a69de0a586d35e6b7ac7249cb44057": {
+      "beverages": {
+        "1976658": {
+          "name": "Promo - Summer - Dreamy Orange Lemonade",
+          "refId": 1976658,
+          "isFlavored": false,
+          "color": "FEBD49",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoSummerDreamyOrangeLemonade-available.png",
+            "waveEnabled": false,
+            "priority": 0
+          },
+          "default": true
+        },
+        "1982847": {
+          "name": "Promo - Summer MM Sparkling Tropical Oas",
+          "refId": 1982847,
+          "isFlavored": false,
+          "color": "ee3D40",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoSummerMMSparklingTropicalOas-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1976660": {
+          "name": "Promo - Summer - Very Berry Splash",
+          "refId": 1976660,
+          "isFlavored": false,
+          "color": "aa1e5c",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoSummerVeryBerrySplash-available.png",
+            "waveEnabled": false,
+            "priority": 2
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2CAndDo.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "name": "US 9100 - MM Summer Promo",
+      "refId": "79a69de0a586d35e6b7ac7249cb44057",
+      "startDate": "2018-05-14T00:00:00",
+      "endDate": "2018-09-10T00:00:00",
+      "promotionAudience": "national",
+      "display": {
+        "languageString": "promotion.uS9100MMSummerPromo.name",
+        "icon": "/images/promotions/US9100MMSummerPromo/elements/US 9100 - MM Summer Promo-launcher.png",
+        "background": {
+          "images": {
+            "ada": "/images/backgrounds/Background1-ada.png",
+            "default": "/images/backgrounds/Background39.png"
+          },
+          "video": {},
+          "priority": 0
+        },
+        "priority": 0
+      }
+    },
+    "cedb398dbeb382430cd88a7cdbfcf6dc": {
+      "beverages": {
+        "1574024": {
+          "name": "Barqs Vanilla",
+          "refId": 1574024,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Barqs/BarqsVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 0
+          },
+          "default": false
+        },
+        "1866599": {
+          "name": "Barqs Creme Soda Strawberry",
+          "refId": 1866599,
+          "flavorId": "0b6d13155c809a6015ed7d3321bec42a",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSoda/BarqsCremeSodaVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1866598": {
+          "name": "Barqs Creme Soda Peach",
+          "refId": 1866598,
+          "flavorId": "706e6df69f76cbe46182a4ca98ba449b",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSoda/BarqsCremeSodaPeach-available.png",
+            "waveEnabled": true,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1475691": {
+          "name": "Barqs Diet",
+          "refId": 1475691,
+          "isFlavored": false,
+          "color": "e7e7e7",
+          "display": {
+            "icon": "/images/beverages/Barqs_diet/BarqsDiet-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": true
+        },
+        "1574023": {
+          "name": "Barqs Diet Vanilla",
+          "refId": 1574023,
+          "flavorId": "1054cf7324f46415dc43af9da72ddf3e",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/Barqs_diet/BarqsDietVanilla-available.png",
+            "waveEnabled": true,
+            "priority": 4
+          },
+          "default": false
+        },
+        "1866605": {
+          "name": "Barqs Creme Soda Diet Orange",
+          "refId": 1866605,
+          "flavorId": "b3e07dbda2374f26c1afaba885eb65c7",
+          "isFlavored": true,
+          "display": {
+            "icon": "/images/beverages/BarqsCremeSodaDiet/BarqsCremeSodaDietOrange-available.png",
+            "waveEnabled": true,
+            "priority": 5
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavors.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "name": "Barqs Promo 9100",
+      "refId": "cedb398dbeb382430cd88a7cdbfcf6dc",
+      "startDate": "2018-09-11T00:00:00",
+      "endDate": "2018-11-11T00:00:00",
+      "promotionAudience": "national",
+      "display": {
+        "languageString": "promotion.barqsPromo9100.name",
+        "icon": "/images/promotions/BarqsPromo9100/elements/Barqs Promo 9100-launcher.png",
+        "background": {
+          "images": {
+            "ada": "/images/backgrounds/Background1-ada.png",
+            "default": "/images/backgrounds/Background40.png"
+          },
+          "video": {},
+          "priority": 0
+        },
+        "priority": 1
+      }
+    },
+    "49f1ade8e35c65a9851bb76c8559e0c6": {
+      "beverages": {
+        "1997011": {
+          "name": "Promo - Fanta Orange Vampire Mix",
+          "refId": 1997011,
+          "isFlavored": false,
+          "color": "f36b21",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoFantaOrangeVampireMix-available.png",
+            "waveEnabled": false,
+            "priority": 0
+          },
+          "default": true
+        },
+        "1997015": {
+          "name": "Promo - Fanta Strawberry Werewolf Mix",
+          "refId": 1997015,
+          "isFlavored": false,
+          "color": "e51939",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoFantaStrawberryWerewolfMix-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1997019": {
+          "name": "Promo - Fanta Grape Witch Mix",
+          "refId": 1997019,
+          "isFlavored": false,
+          "color": "8231a7",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoFantaGrapeWitchMix-available.png",
+            "waveEnabled": false,
+            "priority": 2
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "name": "Fanta Regular Halloween Promo 9100",
+      "refId": "49f1ade8e35c65a9851bb76c8559e0c6",
+      "startDate": "2018-10-01T00:00:00",
+      "endDate": "2018-10-31T00:00:00",
+      "promotionAudience": "national",
+      "display": {
+        "languageString": "promotion.fantaRegularHalloweenPromo9100.name",
+        "icon": "/images/promotions/FantaRegularHalloweenPromo9100/elements/Fanta Regular Halloween Promo 9100-launcher.png",
+        "background": {
+          "images": {
+            "ada": "/images/backgrounds/Background1-ada.png",
+            "default": "/images/backgrounds/Background41.png"
+          },
+          "video": {},
+          "priority": 0
+        },
+        "priority": 2
+      }
+    },
+    "ab7410555395c3c811dd6bec5140cd0d": {
+      "beverages": {
+        "1997013": {
+          "name": "Promo - Fanta Orange Zero Vampire Mix",
+          "refId": 1997013,
+          "isFlavored": false,
+          "color": "f36b21",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoFantaOrangeZeroVampireMix-available.png",
+            "waveEnabled": false,
+            "priority": 0
+          },
+          "default": true
+        },
+        "1997017": {
+          "name": "Promo - Fanta Strbry Zero Werewolf Mix",
+          "refId": 1997017,
+          "isFlavored": false,
+          "color": "e51939",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoFantaStrbryZeroWerewolfMix-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1997021": {
+          "name": "Promo - Fanta Grape Zero Witch Mix",
+          "refId": 1997021,
+          "isFlavored": false,
+          "color": "e51939",
+          "display": {
+            "icon": "/images/beverages/Promotional_beverages/PromoFantaGrapeZeroWitchMix-available.png",
+            "waveEnabled": false,
+            "priority": 2
+          },
+          "default": false
+        }
+      },
+      "content": {
+        "nutrition": "nutritionText.naturalFlavors2C025Juice.text",
+        "caloricSubtitle": "caloricSubTitleText.whatYouEat2CDrink2C26Do.text",
+        "caloricTitle": "caloricTitleText.balance.text"
+      },
+      "name": "Fanta Zero Halloween Promo 9100",
+      "refId": "ab7410555395c3c811dd6bec5140cd0d",
+      "startDate": "2018-10-01T00:00:00",
+      "endDate": "2018-10-31T00:00:00",
+      "promotionAudience": "national",
+      "display": {
+        "languageString": "promotion.fantaZeroHalloweenPromo9100.name",
+        "icon": "/images/promotions/FantaZeroHalloweenPromo9100/elements/Fanta Zero Halloween Promo 9100-launcher.png",
+        "background": {
+          "images": {
+            "ada": "/images/backgrounds/Background1-ada.png",
+            "default": "/images/backgrounds/Background42.png"
+          },
+          "video": {},
+          "priority": 0
+        },
+        "priority": 3
+      }
+    }
+  },
+  "specialtyBrands": {
+    "334cce44f59539204254adadb8351758": {
+      "beverages": {
+        "1563794": {
+          "name": "FH Subs - Cherry Limeade",
+          "refId": 1563794,
+          "isFlavored": false,
+          "color": "ED1F25",
+          "display": {
+            "icon": "/images/beverages/Firehouse_subs/FHSubsCherryLimeade-available.png",
+            "waveEnabled": false,
+            "priority": 0
+          },
+          "default": true
+        },
+        "1820828": {
+          "name": "FH Subs - Cherry Limeade Sparkling",
+          "refId": 1820828,
+          "isFlavored": false,
+          "color": "ED1F25",
+          "display": {
+            "icon": "/images/beverages/Firehouse_subs/FHSubsCherryLimeadeSparkling-available.png",
+            "waveEnabled": false,
+            "priority": 1
+          },
+          "default": false
+        },
+        "1665801": {
+          "name": "FH Subs - Cherry Limeade Light",
+          "refId": 1665801,
+          "isFlavored": false,
+          "color": "ED1F25",
+          "display": {
+            "icon": "/images/beverages/FirehouseSubsDiet/FHSubsCherryLimeadeLight-available.png",
+            "waveEnabled": false,
+            "priority": 2
+          },
+          "default": false
+        },
+        "1820829": {
+          "name": "FH Subs - Cherry Limeade Light Sparkling",
+          "refId": 1820829,
+          "isFlavored": false,
+          "color": "ED1F25",
+          "display": {
+            "icon": "/images/beverages/FirehouseSubsDiet/FHSubsCherryLimeadeLightSparkling-available.png",
+            "waveEnabled": false,
+            "priority": 3
+          },
+          "default": false
+        }
+      },
+      "content": {},
+      "name": "Cherry Limeade Promotion",
+      "refId": "334cce44f59539204254adadb8351758",
+      "startDate": "2018-07-09T00:00:00",
+      "endDate": "2099-07-25T00:00:00",
+      "promotionAudience": "customer",
+      "display": {
+        "languageString": "promotion.cherryLimeadePromotion.name",
+        "icon": "/images/promotions/CherryLimeadePromotion/elements/Cherry Limeade Promotion-launcher.png",
+        "background": {
+          "images": {
+            "ada": "/images/backgrounds/Background1-ada.png",
+            "default": "/images/backgrounds/Background43.png"
+          },
+          "video": {},
+          "priority": 0
+        },
+        "priority": 0
+      }
+    }
+  }
+}

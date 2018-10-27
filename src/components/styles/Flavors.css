@@ -1,0 +1,171 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.flavors {
+  position: fixed;
+  transition: all .5s;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 8; }
+  .hw-9100 .flavors {
+    width: 1920px;
+    height: 1080px; }
+  .hw-7000 .flavors, .hw-3100 .flavors {
+    width: 1024px;
+    height: 600px; }
+  .hw-MLobby .flavors {
+    top: 360px;
+    left: 50%;
+    margin-left: -472.5px;
+    width: 945px;
+    height: 945px; }
+    .hw-MLobby .flavors.specialty-page, .hw-MLobby .flavors.promotion-page {
+      top: 0;
+      left: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background-position: center; }
+  .flavors .video-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+    .hw-9100 .flavors .video-box {
+      width: 1920px;
+      height: 1080px; }
+    .hw-7000 .flavors .video-box, .hw-3100 .flavors .video-box {
+      width: 1024px;
+      height: 600px; }
+    .flavors .video-box .pour {
+      z-index: 6; }
+    .flavors .video-box .loop {
+      z-index: 4; }
+    .flavors .video-box .spin {
+      z-index: 8; }
+  .flavors .glass-image {
+    position: fixed;
+    width: 100%; }
+  .flavors .glass-container {
+    position: absolute;
+    isolation: isolate;
+    opacity: 0;
+    transition: opacity 1s linear;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; }
+  .flavors .flavor-label-container {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    font-size: 1.5em;
+    color: white;
+    transition: opacity .5s;
+    opacity: 0;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .flavors .flavor-label-container .flavor-label {
+      text-align: right;
+      z-index: 10;
+      padding-right: 2vw; }
+      .hw-9100 .flavors .flavor-label-container .flavor-label {
+        width: 700px;
+        font-size: 2.5em;
+        transition: transform .4s;
+        transform: rotate3d(0, 1, 0, 0deg);
+        transform-origin: center right; }
+        .hw-9100 .flavors .flavor-label-container .flavor-label.switch {
+          transform: rotate3d(0, 1, 0, 90deg); }
+        .hw-9100 .flavors .flavor-label-container .flavor-label.switch-out {
+          transform-origin: center left;
+          transform: rotate3d(0, 1, 0, 90deg); }
+      .hw-7000 .flavors .flavor-label-container .flavor-label, .hw-3100 .flavors .flavor-label-container .flavor-label {
+        width: 420px;
+        font-size: 1.6em;
+        transition: opacity .3s ease-in-out; }
+        .hw-7000 .flavors .flavor-label-container .flavor-label.switch, .hw-3100 .flavors .flavor-label-container .flavor-label.switch {
+          opacity: 1; }
+        .hw-7000 .flavors .flavor-label-container .flavor-label.switch-out, .hw-3100 .flavors .flavor-label-container .flavor-label.switch-out {
+          opacity: 0; }
+    .hw-MLobby .flavors .flavor-label-container {
+      top: 328px; }
+      .hw-MLobby .flavors .flavor-label-container .flavor-label {
+        width: 360px;
+        font-size: 1.5em;
+        transition: transform .4s;
+        transform: rotate3d(0, 1, 0, 0deg);
+        transform-origin: center; }
+        .hw-MLobby .flavors .flavor-label-container .flavor-label.switch {
+          transform: rotate3d(0, 1, 0, 90deg); }
+        .hw-MLobby .flavors .flavor-label-container .flavor-label.switch-out {
+          transform-origin: center left;
+          transform: rotate3d(0, 1, 0, 90deg); }
+  .flavors > .item.image {
+    transition-duration: .7s;
+    transition-property: left, top, width, height;
+    transition-timing-function: cubic-bezier(0.765, -0.6, 0.195, 1.28); }
+  .flavors .glass-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 53%;
+    transform: translate(-50%, 145px) scale(1.3);
+    mix-blend-mode: overlay;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 1s .5s; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+    border-width: 10px;
+    opacity: 0; }
+  20% {
+    transform: scale(1.1);
+    border-width: 15px;
+    opacity: .85; }
+  40% {
+    transform: scale(1.3);
+    border-width: 7px;
+    opacity: .5; }
+  100% {
+    transform: scale(1.3);
+    border-width: 1px;
+    opacity: 0; } }
+
+@keyframes flavor-pop {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes pop-select {
+  0% {
+    transform: translateY(0px); }
+  60% {
+    transform: translateY(-80px); }
+  85% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes exit-stage-bottom {
+  0% {
+    transform: translateY(0); }
+  20% {
+    transform: translateY(-50px); }
+  100% {
+    transform: translateY(600px); } }

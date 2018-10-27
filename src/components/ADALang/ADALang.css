@@ -1,0 +1,51 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.ada-lang {
+  display: block;
+  font-family: 'Unity';
+  position: fixed;
+  top: 35px;
+  left: -400px;
+  width: 205px;
+  height: 95px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  border-radius: 115px;
+  transition: all .5s;
+  z-index: 100; }
+  .ada-lang.enabled {
+    transition: all .5s .5s;
+    transform: translateX(435px); }
+  .ada-lang .bordered {
+    border-radius: 115px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px solid #eee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: center;
+    align-items: center;
+    justify-content: center; }
+    .ada-lang .bordered div {
+      display: flex;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 100; }
+  .hw-7000 .ada-lang, .hw-3100 .ada-lang {
+    width: 65px;
+    height: 65px;
+    top: 20px;
+    left: 20px; }

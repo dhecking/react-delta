@@ -1,0 +1,188 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.video-box {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  overflow: hidden; }
+  .video-box .contained {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  .hw-9100 .video-box {
+    width: 1920px;
+    height: 1080px; }
+  .hw-7000 .video-box, .hw-3100 .video-box {
+    width: 1024px;
+    height: 600px; }
+  .video-box .vid {
+    position: absolute;
+    transform: translateY(1080px);
+    top: 0;
+    opacity: 0; }
+  .video-box .vid.pour {
+    opacity: 0;
+    z-index: 5;
+    transition: all .5s; }
+  .video-box .vid.loop {
+    opacity: 0;
+    z-index: 3; }
+  .video-box .vid.spin {
+    opacity: 0;
+    z-index: 4;
+    transition: opacity .5s ease-in-out !important; }
+  .video-box .glass-mask {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 847px;
+    height: 879px;
+    opacity: 0;
+    z-index: 6;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    transform: translate(-423.5px, 200px); }
+    .hw-MLobby .video-box .glass-mask {
+      width: 428px;
+      height: 880px;
+      transform: translate(-214px, 25px); }
+  .video-box.enabled {
+    animation: vid-box-entering 1s ease-in-out forwards; }
+    .video-box.enabled .loop {
+      transform: translateY(0); }
+    .video-box.enabled .vid.spin {
+      transform: translateY(0);
+      opacity: 0; }
+  .video-box.exiting .vid {
+    transition: all .5s !important;
+    animation: vid-exit-bottom .3s ease-in-out forwards; }
+  .video-box.exiting .glass-mask {
+    transform: translateY(1080px);
+    opacity: 0; }
+  .video-box.entering {
+    transform: translateY(0); }
+    .video-box.entering .vid.loop {
+      opacity: 1; }
+    .video-box.entering .glass-mask {
+      opacity: 1;
+      transition: opacity 1s .3s linear; }
+  .video-box.entered {
+    transform: translateY(0); }
+    .video-box.entered .vid.pour {
+      transform: translateY(0); }
+    .video-box.entered .vid.loop {
+      opacity: 1;
+      z-index: 2;
+      transform: translateY(0); }
+    .video-box.entered .glass-mask {
+      opacity: 1;
+      transition: opacity 1s .3s linear; }
+  .video-box .pour.active {
+    opacity: 1;
+    animation: vid-entering 1.5s ease-in-out forwards; }
+  .video-box .loop.active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0s 1.2s; }
+
+@keyframes vid-exit-bottom {
+  0% {
+    transform: translateY(0); }
+  /*
+	20% {
+		transform: translateY( -150px );
+	}
+	*/
+  100% {
+    transform: translateY(1080px);
+    opacity: 0; } }
+
+@keyframes vid-box-entering {
+  0% {
+    opacity: 0;
+    transform: translateY(1080px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes vid-entering {
+  0% {
+    opacity: 1;
+    transform: translateY(1080px); }
+  60% {
+    opacity: 1;
+    transform: translateY(0); }
+  90% {
+    opacity: 0;
+    transform: translateY(0); }
+  100% {
+    opacity: 0;
+    transform: translateY(0); } }
+
+@keyframes vid-spinning {
+  0% {
+    opacity: .1;
+    transform: translateY(0); }
+  20% {
+    opacity: 1; }
+  80% {
+    opacity: 1; }
+  100% {
+    opacity: .1;
+    transform: translateY(0); } }
+
+@keyframes loop-entering {
+  0% {
+    opacity: 0;
+    transform: translateY(0); }
+  80% {
+    opacity: 0;
+    transform: translateY(0); }
+  90% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes flavor-entering {
+  0% {
+    opacity: 0;
+    transform: translateY(1080px); }
+  100% {
+    opacity: 1;
+    transform: translateY(200px); } }
+
+@keyframes flavor-exit-bottom {
+  0% {
+    transform: translateY(200px); }
+  /*
+	20% {
+		transform: translateY( 50px );
+	}
+	*/
+  100% {
+    opacity: 0;
+    transform: translateY(1080px); } }
+
+.hw-MLobby .video-box {
+  top: 360px;
+  left: 50%;
+  margin-left: -472.5px;
+  width: 945px;
+  height: 945px;
+  clip-path: inset(0px); }
+  .hw-MLobby .video-box video {
+    height: 945px; }
+
+.hw-MLobby .overlays {
+  overflow: hidden; }

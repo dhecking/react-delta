@@ -1,0 +1,32 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.caloric-display {
+  text-align: center;
+  font-family: 'Unity';
+  font-weight: 300;
+  font-size: 14px; }
+  .caloric-display h2 {
+    font-size: 20px;
+    margin-bottom: 4px; }
+  .caloric-display .loading {
+    padding: 35px;
+    opacity: .5;
+    transition: all .5s ease-in-out; }
+  .caloric-display .caloric-table {
+    margin-top: 17.5px;
+    width: 100%; }
+    .caloric-display .caloric-table tr {
+      border-bottom: 1px solid #fff; }
+      .caloric-display .caloric-table tr td {
+        padding: 2px 0;
+        font-size: 14px; }
+      .caloric-display .caloric-table tr:last-child {
+        border-bottom: none; }

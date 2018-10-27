@@ -1,0 +1,92 @@
+
+@import "./../styles/variables.scss";
+
+.sidebar {
+	position: fixed;
+	top: $gutter;
+	padding: 20px;
+	width: 360px;
+	opacity: 1;
+	transition: all 0.5s;
+	z-index: 11;
+
+	.ada & {
+		top: $gutter*5;
+		width: 400px;
+		p,.ele {
+			border-radius: $gutter/4;
+		}
+		.row {
+			a {
+				height: inherit;
+				width: inherit;
+				margin: $gutter/3;
+			}
+			.item.image {
+				height: $ada_family_logo_size_9100;
+				width: $ada_family_logo_size_9100;
+				min-width: $ada_family_logo_size_9100;
+				min-height: $ada_family_logo_size_9100;
+
+			}
+		}
+	}
+
+	p,.ele {
+		display: block;
+		background-color: #e6e6e6;
+		border-radius: $gutter/2;
+		padding: $gutter/2;
+
+		.hw-MLobby & {
+			background: rgba(#fff, 0.75);
+			border: 1px solid;
+		}
+	}
+
+	.row {
+		display: flex;
+		justify-content: center;
+		a {
+				height: $family_logo_size_9100;
+				width: $family_logo_size_9100;
+				margin: $gutter/3;
+			}
+		.item.image {
+			position: relative;
+			transform: translate(0,0); // scale(.6);
+			opacity: 1;
+			margin: 0;
+			transition: all 0.5s;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			height: $family_logo_size_9100;
+			width: $family_logo_size_9100;
+			min-width: $family_logo_size_9100;
+			min-height: $family_logo_size_9100;
+
+			.hw-7000 &, .hw-3100 & {
+				height: $family_logo_size_7000;
+				width: $family_logo_size_7000;
+				min-width: $family_logo_size_7000;
+				min-height: $family_logo_size_7000;
+			}
+
+			&.unavailable:after {
+				text-align: center;
+				font-size: .7em;
+			}
+		}
+		&:nth-child(2) .item.image {
+			animation-delay: .2s;
+		}
+	}
+
+	.hw-7000 &, .hw-3100 & {
+		top: 50px;
+		transform: scale(.7);
+	}
+}

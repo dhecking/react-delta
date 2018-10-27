@@ -1,0 +1,129 @@
+
+version: "3.3"
+
+services:
+
+  ngrok:
+    image: wernight/ngrok
+    links:
+      - traefik
+    networks:
+      - simulator_net
+    environment:
+      - NGROK_PORT=traefik:80
+      - NGROK_HOSTNAME=*.${FOS_ENV}.${FOS_DOMAIN}
+      - NGROK_AUTH=5XnzeEi6BozJngS9kMLto_3DpZBimpYf7r98qG25Srf
+    labels:
+      - traefik.enable=true
+      - traefik.protocol=http
+      - traefik.port=4040
+      - traefik.frontend.rule=Host:ngrok.${FOS_ENV}.${FOS_DOMAIN}
+      - traefik.backend=ngrok
+      - traefik.backend.passhostheader=true
+      - traefik.backend.loadbalancer.method=wrr
+      - traefik.docker.network=fos_docker_simulator_net
+
+  traefik:
+    image: fosfreestyle/traefik:traefik-${FOS_VERSION}
+    command: --logLevel=${TRAEFIK_LOGLEVEL}
+    ports:
+      - 80:80
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - simulator_net
+    labels:
+      - traefik.enable=true
+      - traefik.protocol=http
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:traefik.${FOS_ENV}.${FOS_DOMAIN}
+      - traefik.backend=traefik
+      - traefik.backend.passhostheader=true
+      - traefik.backend.loadbalancer.method=wrr
+      - traefik.docker.network=fos_docker_simulator_net
+
+  9100-gs-us-with-bib:
+    image: fosfreestyle/snapshots:9100-gs-us-with-bib-${FOS_VERSION}
+    ports:
+      - 8081:8080
+    networks:
+      - simulator_net
+    labels:
+      - traefik.enable=true
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:9100-gs-us-with-bib.${FOS_ENV}.${FOS_DOMAIN}
+      - traefik.backend=9100-gs-us-with-bib
+      - traefik.backend.passhostheader=true
+      - traefik.backend.loadbalancer.method=wrr
+      - traefik.docker.network=fos_docker_simulator_net
+
+  7000-uc-us:
+    image: fosfreestyle/snapshots:7000-uc-us-${FOS_VERSION}
+    ports:
+      - 8082:8080
+    networks:
+      - simulator_net
+    labels:
+      - traefik.enable=true
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:7000-uc-us.${FOS_ENV}.${FOS_DOMAIN}
+      - traefik.backend=7000-uc-us
+      - traefik.backend.passhostheader=true
+      - traefik.backend.loadbalancer.method=wrr
+      - traefik.docker.network=fos_docker_simulator_net
+
+  3100-uc-us:
+    image: fosfreestyle/snapshots:3100-uc-us-${FOS_VERSION}
+    ports:
+      - 8083:8080
+    networks:
+      - simulator_net
+    labels:
+      - traefik.enable=true
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:3100-uc-us.${FOS_ENV}.${FOS_DOMAIN}
+      - traefik.backend=3100-uc-us
+      - traefik.backend.passhostheader=true
+      - traefik.backend.loadbalancer.method=wrr
+      - traefik.docker.network=fos_docker_simulator_net
+
+  MABS-M-Series:
+    image: fosfreestyle/snapshots:MABS-M-Series-${FOS_VERSION}
+    ports:
+      - 8084:8080
+    networks:
+      - simulator_net
+    labels:
+      - traefik.enable=true
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:MABS-M-Series.${FOS_ENV}.${FOS_DOMAIN}
+      - traefik.backend=MABS-M-Series
+      - traefik.backend.passhostheader=true
+      - traefik.backend.loadbalancer.method=wrr
+      - traefik.docker.network=fos_docker_simulator_net
+
+  MLobby-M-Series:
+    image: fosfreestyle/snapshots:MLobby-M-Series-${FOS_VERSION}
+    ports:
+      - 8085:8080
+    networks:
+    -  simulator_net
+    labels:
+      - traefik.enable=true
+      - traefik.port=8080
+      - traefik.frontend.rule=Host:MLobby-M-Series.${FOS_ENV}.${FOS_DOMAIN}
+      - traefik.backend=MLobby-M-Series
+      - traefik.backend.passhostheader=true
+      - traefik.backend.loadbalancer.method=wrr
+      - traefik.docker.network=fos_docker_simulator_net
+
+  automation:
+    image: fosfreestyle/automation:automation-${FOS_VERSION}
+    command: /package/bin/wait-for-sims.sh
+    stdin_open: true
+    tty: true
+    networks:
+    - simulator_net
+
+networks:
+  simulator_net:

@@ -1,0 +1,37 @@
+
+@import "./../styles/variables.scss";
+
+.caloric-display {
+	text-align: center;
+	font-family: 'Unity';
+	font-weight: 300;
+	font-size: 14px;
+	h2 {
+		font-size: 20px;
+		margin-bottom: 4px;
+	}
+
+	.loading {
+		padding: $gutter;
+		opacity: .5;
+		transition: all .5s ease-in-out;
+	}
+
+	.caloric-table {
+		margin-top: $gutter/2;
+		width: 100%;
+		tr {
+			border-bottom: 1px solid #fff;
+			td {
+				padding: 2px 0;
+				font-size: 14px;
+			}
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+
+}
+
+

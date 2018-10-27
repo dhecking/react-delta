@@ -1,0 +1,55 @@
+.idle-screens {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  opacity: 0;
+  transition: all .3s; }
+  .idle-screens .attract {
+    width: 100%;
+    height: 100%;
+    transition: all .3s; }
+    .idle-screens .attract > .continue {
+      display: block;
+      width: 100%;
+      height: 100%; }
+      .idle-screens .attract > .continue > img {
+        width: 100%;
+        height: 100%; }
+      .idle-screens .attract > .continue > .ttc {
+        display: block;
+        position: fixed;
+        z-index: 1;
+        bottom: 60px;
+        background-color: #fff;
+        border-radius: 200px;
+        border: solid 1px #e6e6e6;
+        width: 200px;
+        height: 200px;
+        left: 50%;
+        margin-left: -100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("../../assets/images/touch.png"); }
+        .hw-9100 .idle-screens .attract > .continue > .ttc {
+          top: 820px; }
+    .hw-7000 .idle-screens .attract > .continue .ttc, .hw-3100 .idle-screens .attract > .continue .ttc {
+      bottom: 40px;
+      width: 140px;
+      height: 140px;
+      margin-left: -70px; }
+    .hw-9100 .idle-screens .attract {
+      width: 1920px;
+      height: 1080px; }
+      .hw-9100 .idle-screens .attract img {
+        width: 1920px;
+        height: 1080px; }
+  .route-trans-enter .idle-screens {
+    opacity: 0; }
+  .route-trans-enter-done .idle-screens, .route-trans-enter-active .idle-screens {
+    opacity: 1; }
+  .route-trans-exit-active .idle-screens {
+    opacity: 0; }

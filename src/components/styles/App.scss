@@ -1,0 +1,111 @@
+
+
+@import "./variables.scss";
+
+body {
+
+  > .media {
+    >img.glass {
+      position: absolute;
+      left: 0;
+      // bottom: 0;
+      // FIXME: the dispenser type might need to be up a level to handle this kind of stuff
+      top: -90px;
+      opacity: 0;
+      z-index: -1;
+      left: -10000px;
+      transition: opacity 1s;
+      &.show {
+        opacity: 1 !important;
+      }
+    }
+    >img.logo {
+      position: absolute;
+      top: 20em;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: opacity 1s;
+      left: -10000px;
+      opacity: 0;
+      &.show {
+        opacity: 1 !important;
+        left: 50%;
+      }
+    }
+    > video.vid {
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      display: none;
+      transition: opacity 1s;
+      z-index: -2;
+      &.show {
+        display: block;
+        opacity: 1 !important;
+      }
+    }
+  }
+
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    &.ada {
+      background-color: $adaBg;
+    }
+
+    .layout {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 8;
+      left: 0;
+      right: 0;
+      transition: opacity 250ms ease-in;
+    }
+
+    &.hw-9100 {
+      max-width: 1920px;
+      max-height: 1080px;
+    }
+
+    &.hw-7000, &.hw-3100 {
+      max-width: 1024px;
+      max-height: 600px;
+
+      /* Animate.js related classes */
+      .layout {
+        opacity: 0;
+        &.route-trans-enter-done {
+          opacity: 1;
+        }
+
+        &.route-trans-enter {
+          opacity: 0;
+          z-index: 1;
+        }
+
+        &.route-trans-enter.route-trans-enter-active {
+          opacity: 1;
+        }
+
+        &.route-trans-exit.route-trans-exit-active {
+          opacity: 0;
+        }
+      }
+      /* END Animate.js related classes */
+
+
+    }
+  }
+}

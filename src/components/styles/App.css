@@ -1,0 +1,85 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+body > .media > img.glass {
+  position: absolute;
+  left: 0;
+  top: -90px;
+  opacity: 0;
+  z-index: -1;
+  left: -10000px;
+  transition: opacity 1s; }
+  body > .media > img.glass.show {
+    opacity: 1 !important; }
+
+body > .media > img.logo {
+  position: absolute;
+  top: 20em;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 1s;
+  left: -10000px;
+  opacity: 0; }
+  body > .media > img.logo.show {
+    opacity: 1 !important;
+    left: 50%; }
+
+body > .media > video.vid {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  display: none;
+  transition: opacity 1s;
+  z-index: -2; }
+  body > .media > video.vid.show {
+    display: block;
+    opacity: 1 !important; }
+
+body #root {
+  width: 100%;
+  height: 100%; }
+
+body .app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+  body .app.ada {
+    background-color: #2a2a2a; }
+  body .app .layout {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 8;
+    left: 0;
+    right: 0;
+    transition: opacity 250ms ease-in; }
+  body .app.hw-9100 {
+    max-width: 1920px;
+    max-height: 1080px; }
+  body .app.hw-7000, body .app.hw-3100 {
+    max-width: 1024px;
+    max-height: 600px;
+    /* Animate.js related classes */
+    /* END Animate.js related classes */ }
+    body .app.hw-7000 .layout, body .app.hw-3100 .layout {
+      opacity: 0; }
+      body .app.hw-7000 .layout.route-trans-enter-done, body .app.hw-3100 .layout.route-trans-enter-done {
+        opacity: 1; }
+      body .app.hw-7000 .layout.route-trans-enter, body .app.hw-3100 .layout.route-trans-enter {
+        opacity: 0;
+        z-index: 1; }
+      body .app.hw-7000 .layout.route-trans-enter.route-trans-enter-active, body .app.hw-3100 .layout.route-trans-enter.route-trans-enter-active {
+        opacity: 1; }
+      body .app.hw-7000 .layout.route-trans-exit.route-trans-exit-active, body .app.hw-3100 .layout.route-trans-exit.route-trans-exit-active {
+        opacity: 0; }

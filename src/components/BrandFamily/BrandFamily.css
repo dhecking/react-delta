@@ -1,0 +1,72 @@
+/* Common Variables: */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* 9100 Settings: */
+/* -------------------------- */
+/* MLobby Settings: */
+/* -------------------------- */
+/* 7000 / 3100 Settings: */
+/* -------------------------- */
+.sidebar {
+  position: fixed;
+  top: 35px;
+  padding: 20px;
+  width: 360px;
+  opacity: 1;
+  transition: all 0.5s;
+  z-index: 11; }
+  .ada .sidebar {
+    top: 175px;
+    width: 400px; }
+    .ada .sidebar p, .ada .sidebar .ele {
+      border-radius: 8.75px; }
+    .ada .sidebar .row a {
+      height: inherit;
+      width: inherit;
+      margin: 11.66667px; }
+    .ada .sidebar .row .item.image {
+      height: 100px;
+      width: 100px;
+      min-width: 100px;
+      min-height: 100px; }
+  .sidebar p, .sidebar .ele {
+    display: block;
+    background-color: #e6e6e6;
+    border-radius: 17.5px;
+    padding: 17.5px; }
+    .hw-MLobby .sidebar p, .hw-MLobby .sidebar .ele {
+      background: rgba(255, 255, 255, 0.75);
+      border: 1px solid; }
+  .sidebar .row {
+    display: flex;
+    justify-content: center; }
+    .sidebar .row a {
+      height: 83px;
+      width: 83px;
+      margin: 11.66667px; }
+    .sidebar .row .item.image {
+      position: relative;
+      transform: translate(0, 0);
+      opacity: 1;
+      margin: 0;
+      transition: all 0.5s;
+      height: 83px;
+      width: 83px;
+      min-width: 83px;
+      min-height: 83px; }
+      .sidebar .row .item.image:last-child {
+        margin-right: 0; }
+      .hw-7000 .sidebar .row .item.image, .hw-3100 .sidebar .row .item.image {
+        height: 73px;
+        width: 73px;
+        min-width: 73px;
+        min-height: 73px; }
+      .sidebar .row .item.image.unavailable:after {
+        text-align: center;
+        font-size: .7em; }
+    .sidebar .row:nth-child(2) .item.image {
+      animation-delay: .2s; }
+  .hw-7000 .sidebar, .hw-3100 .sidebar {
+    top: 50px;
+    transform: scale(0.7); }

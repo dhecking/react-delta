@@ -1,0 +1,17 @@
+
+
+.attract {
+	.ambient {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+}
+
+.ambient {
+	opacity: 0;
+	transition: all 0.5s;
+	&.ambient-trans-enter-done {
+		opacity: 1;
+	}
+}

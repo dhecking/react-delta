@@ -1,0 +1,113 @@
+
+
+@import "./../styles/variables.scss";
+
+
+.category-selection {
+
+	position: fixed;
+	z-index: 6;
+	top: 0;
+	left: 0;
+	transition: all .5s;
+	font-family: 'Unity';
+
+	width: $width_9100;
+	height: $height_9100;
+	.hw-7000 &, .hw-3100 & {
+		width: $width_7000;
+		height: $height_7000;
+	}
+
+	.hw-MLobby & {
+		width: $width_MLobby;
+		height: $height_MLobby;
+	}
+
+	.route-trans-exit &, .route-trans-enter & {
+		opacity: 0;
+		.heading {
+			height: 0px;
+		}
+	}
+
+
+	.back {
+		transform: translateX(-300px);
+		transition: all 0.5s;
+		.route-trans-enter-done & {
+			transition: all 0.5s .5s;
+			transform: translateX(0px);
+			.ada & {
+				transition: all 0.3s;
+			}
+		}
+	}
+
+	.ada & {
+		.heading {
+			color: $white;
+			transition: all .5s;
+		}
+	}
+
+	.heading {
+		font-size: 60pt;
+		max-width: 600px;
+		font-weight: 100;
+		text-transform: uppercase;
+		color: #F40000;
+		overflow: hidden;
+		height: 250px;
+		transition: all .5s .5s;
+		strong {
+			font-weight: 600;
+			font-size: 83pt;
+		}
+	}
+
+	> .contents {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		flex-flow: center;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		height: 1080px;
+		padding: 5% 20%;
+
+		.item.image {
+			position: relative;
+			transform: translate( 0, 0 ) scale( 1, 1 );
+			width: $level3_9100;
+			height: $level3_9100;
+			opacity: 1;
+			margin: $gutter/2;
+		}
+
+		.hw-MLobby & {
+			height: $height_MLobby;
+
+			.item.image {
+				width: $level3_MLobby;
+				height: $level3_MLobby;
+			}
+		}
+	}
+
+	.selections {
+		text-align: center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-flow: center;
+		align-items: center;
+		justify-content: center;
+	}
+
+}
