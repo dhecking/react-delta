@@ -13,15 +13,16 @@
 
   <!-- Properties -->
   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <npm.version>5.2.0</npm.version>
+    <node.version>v8.9.1</node.version>
     <artifact.version>1.0.0</artifact.version>
+    <fos.version>${project.version}</fos.version>
     <artifact.dir>${project.build.directory}</artifact.dir>
     <cms.bundle.dir>${project.build.directory}/brandset</cms.bundle.dir>
+    <distribution.version>${fos.version} (${buildNumber})</distribution.version>
   </properties>
-
-  <scm>
-    <url>https://bitbucket.org/kofreestyle/fos_applications.git</url>
-    <connection>scm:git:git://bitbucket.org/kofreestyle/fos_applications.git</connection>
-  </scm>
 
   <!-- Profiles -->
   <profiles>
@@ -29,24 +30,6 @@
       <id>defaultNodeSupport</id>
       <build>
         <plugins>
-          <!-- Retrieve build number -->
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>buildnumber-maven-plugin</artifactId>
-            <version>1.4</version>
-            <executions>
-              <execution>
-                <phase>validate</phase>
-                <goals>
-                  <goal>create</goal>
-                </goals>
-              </execution>
-            </executions>
-            <configuration>
-              <doCheck>false</doCheck>
-              <doUpdate>false</doUpdate>
-            </configuration>
-          </plugin>
 
           <!-- Make sure the expected properties are set -->
           <plugin>
@@ -86,6 +69,7 @@
           <plugin>
             <groupId>com.github.eirslett</groupId>
             <artifactId>frontend-maven-plugin</artifactId>
+            <version>1.6</version>
             <executions>
 
               <!-- install node and npm -->
@@ -94,9 +78,11 @@
                 <goals>
                   <goal>install-node-and-npm</goal>
                 </goals>
+                <phase>generate-resources</phase>
                 <configuration>
                   <nodeVersion>${node.version}</nodeVersion>
                   <npmVersion>${npm.version}</npmVersion>
+                  <downloadRoot>https://nodejs.org/dist/</downloadRoot>
                 </configuration>
               </execution>
 
@@ -111,7 +97,18 @@
                 </configuration>
               </execution>
 
-              <!-- npm install -->
+              <!-- npm rebuild -->
+              <execution>
+                <id>npm rebuild</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+                <configuration>
+                  <arguments>rebuild node-sass</arguments>
+                </configuration>
+              </execution>
+
+              <!-- npm run build -->
               <execution>
                 <id>npm run build</id>
                 <goals>
@@ -124,122 +121,6 @@
             </executions>
           </plugin>
 
-          <!-- Copy cloud-toolbox JAR to target folder -->
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-dependency-plugin</artifactId>
-            <version>3.0.2</version>
-            <executions>
-              <execution>
-                <id>copy</id>
-                <phase>package</phase>
-                <goals>
-                  <goal>copy</goal>
-                </goals>
-              </execution>
-            </executions>
-            <configuration>
-              <artifactItems>
-                <artifactItem>
-                  <groupId>com.tccc.freestyle.cloud</groupId>
-                  <artifactId>cloud-toolbox</artifactId>
-                  <version>${fos.version}</version>
-                  <type>jar</type>
-                  <destFileName>cloud-toolbox-${fos.version}.jar</destFileName>
-                  <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>com.tccc.freestyle.application</groupId>
-                  <artifactId>cms-bundle</artifactId>
-                  <version>1.0.0</version>
-                  <classifier>${brandset.classifier}</classifier>
-                  <type>zip</type>
-                  <destFileName>cms_bundle.zip</destFileName>
-                  <outputDirectory>${cms.bundle.dir}</outputDirectory>
-                </artifactItem>
-              </artifactItems>
-
-            </configuration>
-          </plugin>
-
-          <!-- package the cuiv2 -->
-          <plugin>
-            <artifactId>maven-antrun-plugin</artifactId>
-            <executions>
-              <execution>
-                <phase>package</phase>
-                <configuration>
-                  <tasks>
-                    <echo message="including cui inside the cms archive bundle" />
-                    <zip destfile="${project.build.directory}/cms_bundle.zip">
-                      <zipfileset src="${cms.bundle.dir}/cms_bundle.zip" includes="**/**"/>
-                      <zipfileset dir="build" includes="index.html" fullpath="designs/cluster/index.html"/>
-                      <zipfileset dir="build" includes="ada.html" fullpath="designs/cluster/ada.html"/>
-                      <zipfileset dir="build" includes="favicon.ico" fullpath="designs/cluster/favicon.ico"/>
-                      <zipfileset dir="build/static" prefix="designs/cluster/static"/>
-                    </zip>
-                  </tasks>
-                </configuration>
-                <goals>
-                  <goal>run</goal>
-                </goals>
-              </execution>
-              <execution>
-                <id>package</id>
-                <phase>package</phase>
-                <goals>
-                  <goal>run</goal>
-                </goals>
-                <configuration>
-                  <target>
-                    <exec executable="java">
-                      <arg value="-jar"/>
-                      <arg value="${project.build.directory}/lib/cloud-toolbox-${fos.version}.jar"/>
-                      <arg value="contentBundler"/>
-                      <arg value="-t"/>
-                      <arg value="cui"/>
-                      <arg value="-c"/>
-                      <arg value="${project.build.directory}/cms_bundle.zip"/>
-                      <arg value="-id"/>
-                      <arg value="self-serve"/>
-                      <arg value="-dv"/>
-                      <arg value="${distribution.version}"/>
-                      <arg value="-v"/>
-                      <arg value="${artifact.version}"/>
-                      <arg value="-b"/>
-                      <arg value="${project.build.directory}/cms_bundle.zip"/>
-                      <arg value="-bt"/>
-                      <arg value="CMS"/>
-                      <arg value="-debug"/>
-                      <arg value="${project.build.directory}/selfserve.pkg"/>
-                    </exec>
-                  </target>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>build-helper-maven-plugin</artifactId>
-            <version>3.0.0</version>
-            <executions>
-              <execution>
-                <id>attach-artifacts</id>
-                <phase>package</phase>
-                <goals>
-                  <goal>attach-artifact</goal>
-                </goals>
-                <configuration>
-                  <artifacts>
-                    <artifact>
-                      <file>${project.build.directory}/selfserve.pkg</file>
-                      <type>pkg</type>
-                    </artifact>
-                  </artifacts>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
         </plugins>
       </build>
     </profile>
