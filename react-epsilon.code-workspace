@@ -5,7 +5,27 @@
 		}
 	],
 	"settings": {
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe",
 		"java.configuration.updateBuildConfiguration": "automatic",
-		"files.eol": "\n"
+		"files.eol": "\n",
+		"maven.terminal.customEnv": [
+			{
+				"environmentVariable": "JAVA_HOME",
+				"value": "/mnt/c/program files/java//jdk1.8.0_181",
+			},
+			{
+				"environmentVariable": "M2_HOME", 
+				"value": "/home/dhecking/.m2"
+			},
+			{
+				"environmentVariable": "MAVEN_OPTS", 
+				"value": "'-Xms1024m -Xmx4096m'"
+			},
+		],
+		"maven.projects.excludedFolders": [
+			"**/.*",                // exclude hidden folders
+			"**/node_modules",      // exclude node modules to speed up
+			"**/target"             // exclude duplicated pom file in target folder
+		]
 	}
 }
